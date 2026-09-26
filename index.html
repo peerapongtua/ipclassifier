@@ -1,0 +1,1112 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>ตัวช่วยจำแนกทรัพย์สินทางปัญญา / IP Type Assistant</title>
+<meta name="theme-color" content="#8A6A32">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="IP Classifier">
+<link rel="manifest" href="data:application/manifest+json;base64,eyJuYW1lIjogIuC4leC4seC4p+C4iuC5iOC4p+C4ouC4iOC4s+C5geC4meC4geC4l+C4o+C4seC4nuC4ouC5jOC4quC4tOC4meC4l+C4suC4h+C4m+C4seC4jeC4jeC4siAvIElQIFR5cGUgQXNzaXN0YW50IiwgInNob3J0X25hbWUiOiAiSVAgQ2xhc3NpZmllciIsICJkZXNjcmlwdGlvbiI6ICJUaGFpIElQIGNhdGVnb3J5IGRlY2lzaW9uLXRyZWUgYXNzaXN0YW50IC8g4LiV4Lix4Lin4LiK4LmI4Lin4Lii4LiI4Liz4LmB4LiZ4LiB4LiX4Lij4Lix4Lie4Lii4LmM4Liq4Li04LiZ4LiX4Liy4LiH4Lib4Lix4LiN4LiN4Liy4LmE4LiX4LiiIiwgInN0YXJ0X3VybCI6ICIuIiwgInNjb3BlIjogIi4iLCAiZGlzcGxheSI6ICJzdGFuZGFsb25lIiwgIm9yaWVudGF0aW9uIjogInBvcnRyYWl0LXByaW1hcnkiLCAiYmFja2dyb3VuZF9jb2xvciI6ICIjRjNFRkU2IiwgInRoZW1lX2NvbG9yIjogIiM4QTZBMzIiLCAiaWNvbnMiOiBbeyJzcmMiOiAiZGF0YTppbWFnZS9wbmc7YmFzZTY0LGlWQk9SdzBLR2dvQUFBQU5TVWhFVWdBQUFNQUFBQURBQ0FZQUFBQlMzR3dIQUFBR3FVbEVRVlI0bk8zZHpYVWJPUkNGMGFaQ2NnQU95RHR0RklRMzNDa2dCYUNVUEFzUExZcGtzL0ZYcUNxODd5NW56cEhRamZjQWRKTkhQbTNCL1A3MTQ0LzNHR0RuN2YzejVEMkdhNjZESWV6WU50OVNUUC9GaEI3UHpDN0R0RjlHOEZGalZoSE1md25CUncvcklwajljSUtQa2F5S01QeUhFbnhZR2wyRWw1RS9qUEREMnVpTURXa1R3WWVIRWJ0Qjl3NUErT0ZsUlBhNkNrRDQ0YTAzZzgwRklQeUlvaWVMVFFVZy9JaW1OWlBWQlNEOGlLb2xtMVVGSVB5SXJqYWp4UVVnL01paUpxdEZCU0Q4eUtZMHM0Y0ZJUHpJcWlTN1E3OEtBV1R6dEFDcy9zanVLTU83QlNEOFdNV3pMSE1FZ3JTSDM2Wmo5YmYxZXY1NCtOL1ByejhuajBUTG8yK1BzZ05NdGhmK28vOEhHM2VOWVBXM1VSdHVkZ01idDdzQU93Q2tmU3NBcTcrTmxxTU54eUVidHhsbkJ6RFdFMlJLWU85ZkFWajlvZUk2Nit3QWtFWUJJTzFsMnpqK1FNOGw4K3dBa0VZQmpQVjhvTVdIWWZZb3dBUXRRU2I4YzFBQVNEdnhBRHhYeVlkYnJQN3pzQU5NUnJoam9RQ1FSZ0VnalFKQUdnV0FOQW9BYVJRQTBpZ0FwRkVBU0tNQWtFWUJJSTBDUUJvRmdEUUtBR2tVQU5Jb0FLUlJBRWlqQUpCR0FTQ05Ba0FhQllBMENnQnBGQURTS0FDa1VRQklvd0NRUmdFZ2pRSkFHZ1dBTkFvQWFSUUEwaWdBcEZFQVNLTUFrRVlCSUkwQ1FCb0ZnRFFLQUdrVUFOSW9BS1JSQUVpakFKQkdBU0NOQWtBYUJZQTBDZ0JwRkFEU0tBQ2tVUUJJb3dDVHZaNC92SWVBSzZmZnYzNzg4UjZFZ3RyZ24xOS9HbzBFMXlqQUJEMnJQa1d3eFJISVdPK1JoeU9UTFFwZ2FGUjRLWUVkamtBR3JBTExjV2c4ZG9EQkxGZHJkb0x4MkFFRzZublR3MXNpSCt3QWcvUUd1RGJRN0FaalVJQUJScTNlbEdBK2prQWRySTR0SElmbVlRZG9aQmxTZG9KNTJBRWF6RnloMlExc3NRTlVtaDFJZGdOYjdBQ0ZXb0kxY2pWbUo3QkJBUXBFQ1YrVWNheUVJOUNCU0tIak9EUWVPOEFUa2NKL0svTFlNbUVIMkJFOVlPd0dZN0FEM0lnZS9Gdlp4aHNOTzhDVmpHRmlKK2hEQWY2WE1md1hsS0FkUjZBdGQvaHZyWFF0TTBnWFlOV3dySHBkRm1TUFFDdUhoQ05ST2NrQ3JCeitDMHBRUnE0QUN1Ry9vQVRIWko0QnZML001azJwK0RVa0NzRGsvOFY5dUxmOEVZaEovOEtSNk43U0JTRDg5eWpCZDhzV2dQRHZvd1JmbG5zR0lQaDExTy9YVWp1QSttUzJVTjhObGlrQTRXK25YSUtVUjZEZUNTRDhqeW5lMTFRRkdMSHlaSnlrbWRUdWNab0NLSzVPbmxUdWQ0cG5BSlhKaUtUM25tVjVUa2hSZ0I2RXY1M0N2UXRmQVA2RlJWOHovNjZwaC9BRmFFWDR4MW41WGk1YkFLQUVCWUMwOEFWbzJYNVgzckl6eVRBUDRRdlFJc1BEbDRJTTh4QytBQmx1NHVwV25vUHdCV2kxOHFSbEVuMGVRaGNnK3MxVHNQb2NoQzNBaUJ1Lyt1UlpLN2wvSlErNmtlY2hiQUZLWkwvNThCZXlBS05XSHJTcm1ZUE1DMUhJQWh5NXZ1R1piMzVtTFF0UXhIa0lWd0QxditBV2dkSWNoQ3ZBa2RZYkhYSDF5V3FsYjRpR0tnQmZmZmFuTmdkaENqRGp3VGZhNmhQTmlEbkk5a3dXcGdBalpMdjV5cUxNUTRnQzhOclQzOGc1eURSWElRcHdwT2FHc2d2WXNBaDFoSGx3TDRERlRjaTBBa1dnUEFmdUJUaGlkU01qckQ1WnRNNUJodDNZdFFDV0Y1OWxCZkxtSFVCdm9YY0E2eENyVDM2SjNqbUl2Z3U0RldER1JiTUxQQmRwQWZBYWkwc0JJcjMyakJTQ21XYk9RZVNGS1BRUmFJVG9XekMrZU16RDlBSkVXdjFWZWN4QjFEa050d05ZM0NoMmdUcFdZWTA0RDFNTDRCbXlxQ3ZRYkJtS1BuT01MMi92bjZkcHYrMkFkMGd6aE1PYTlSeDR6L0cxdC9mUDA3UWRJRUs0SXQxOER4SG1vTlNzc1U0cFFLWUgzMHdocVJGcERxTE05YllGZkFpMkZ2RkJURkdVZVRBdlFLU1ZSeFZ6c085bDIvNCtESGdOd09QR1IxbDlvdkFLditjOFhESnZ0Z084bmo5Q2gwaWxCRnpEYy85Vy9sSC9YbkROWUwyMzNVeGpyVlY2YlJHdXkyTWU3bmFBRWNlZ2JLdE56YzNNZEcyWnhscHJ4TFZkWjkzdExWQ0VsVWRkbERud0hNZTNBdlRzQWl1dk9oY1pyckZtakJtdTU1R2VjZDltWE81ekFPRGFYUUVpZlRjSUdPbFJ0dGtCSU8xaEFWcDJnZEYvdkdxV3JPUGVrL1Y2ck1lOWwybDJBRWpiTFlEVkxoQnAxYm5JT3U0OVdhL0hhdHpQc253WTh0WlBpRzlmVlVXODRZOWtIZmVlck5jemF0eEhDN2xaQVlBSWpncHcrQXpBYTFGa1ZaTGRvb2RnU29Cc1NqTmIvQmFJRWlDTG1xeFd2UWFsQklpdU5xUFZud05RQWtUVmtzMm1EOElvQWFKcHpXVHpKOEdVQUZIMFpMSHJxeENVQU41Nk05ajlYU0JLQUM4anNqYzB2SHhxakJsR0xycER2dzNLYmdCcm96Tm1GbGgyQTR4a3RiaWFyOWdVQVQyc1R4WFRqaXdVQVRWbUhhZW5uOWtwQXA2Wi9SenArdEJLR2JCdHZpOVB3cjIxb1JScmkvYW04RDkvSUFqNFlLVmY5QUFBQUFCSlJVNUVya0pnZ2c9PSIsICJzaXplcyI6ICIxOTJ4MTkyIiwgInR5cGUiOiAiaW1hZ2UvcG5nIiwgInB1cnBvc2UiOiAiYW55In0sIHsic3JjIjogImRhdGE6aW1hZ2UvcG5nO2Jhc2U2NCxpVkJPUncwS0dnb0FBQUFOU1VoRVVnQUFBZ0FBQUFJQUNBWUFBQUQwZU5UNkFBQVY5a2xFUVZSNG5PM2R5NVVjTjdZRlVGQ3JMWklCTWtnelRtUUVKNXpKSUJrZ2wvUUdmQ1Zsc2FxeThoTUJuSXU3OTB5clcrd0lCSUJ6RWhuSi9qS0k5TzMzWC85WmZRMEFSL2pqejcrL3JMNEczdkpRRmhId0FEOG9DR3NZOUFtRVBjQjlsSUx6R2VBVENIeUFZeWtFeHpPZ0J4RDRBSE1wQk04emdBOFMrZ0FabElISEdMUTdDSDJBYk1yQTdRelVKNFErUUUzS3dIVUc1d09DSDJBUGlzRDdETW9Gb1Erd04yWGdQd1ppQ0g2QWJoU0I1Z1ZBOEFQMDFya0l0THh4d1EvQXBZNUZvTlVOQzM0QXJ1bFVCRnJjcU9BSDRCNGRpc0F2cXkvZ2JNSWZnSHQxeUk1dEcwNkhod2ZBK1hZOURkanVwZ1EvQUdmWXJRaHM5UldBOEFmZ0xMdGx6Qlp0WnJlSEFrQzJIVTREeXA4QUNIOEFadHNoZTBvWGdCMGVBQUExVmMrZ2trY1kxUWNkZ0wxVS9FcWczQW1BOEFjZ1RjVnNLbFVBS2c0d0FEMVV5NmdTUnhiVkJoV0EzaXA4SlJCL0FpRDhBYWltUW5aRkY0QUtBd2dBNzBuUHNOZ0NrRDV3QVBDWjVDeUxMQURKQXdZQTkwak50TGdDa0RwUUFQQ294R3lMS2dDSkF3UUFSMGpMdUpnQ2tEWXdBSEMwcEt5TEtBQkpBd0lBWjBySnZPVUZJR1VnQUdDV2hPeGJXZ0FTQmdBQVZsaWRnY3NLd09vYkI0RFZWbWJoa2dJZy9BSGdoMVdaT0wwQUNIOEFlRzFGTms0dEFNSWZBTjQzT3lPbkZRRGhEd0RYemN6S0tRVkErQVBBYldabDV2Sy9Cd0FBbU8vMEF1RFRQd0RjWjBaMm5sb0FoRDhBUE9ic0REMnRBQWgvQUhqT21WbnFIUUFBYU9pVUF1RFRQd0FjNDZ4TVBid0FDSDhBT05ZWjJYcG9BUkQrQUhDT296UFdPd0FBME5CaEJjQ25md0E0MTVGWmUwZ0JFUDRBTU1kUm1lc3JBQUJvNk9rQzROTS9BTXgxUlBZNkFRQ0FocDRxQUQ3OUE4QWF6MmJ3d3dWQStBUEFXczlrc2E4QUFLQ2hMNC84U3o3OVEwMWZ2LzkxOVQvLy92VzNTVmNDSE9tUFAvKytPOC8vZDhhRkFEaytDLzJQL3J2S0FPenQ3c2JnMHovVWNFL3dYNk1JUUEzM25nSTRBWUROSEJYOFAvOTVpZ0RzNWE2WEFIMzZoMnhIaC8rc1B4dDQzcjBaN1ZjQXNJa1pBYTBFd0Q1dUxnQSsvVU91bWNHc0JFQ3VlN0xhQ1FBVXR5S1FsUUNvNzZZQzROTS9aRm9aeEVvQVpMbzFzNTBBUUZFSkFaeHdEY0JqRkFBQWFPalRBdUQ0SC9Ja2ZmSk91aGJnaDF1eTJ3a0FBRFIwdFFENDlBOTVFajl4SjE0VGRQZFpoanNCQUlDR0ZBQUFhT2pEQXVENEgvSWtIN1VuWHh0MGRTM0xuUUFBUUVNS0FBQTA5RzRCY1B3UEFIdjRLTk9kQUFCQVF3b0FBRFQwcGdBNC9nZUF2YnlYN1U0QUFLQWhCUUFBR2xJQW9KRHZYMzliZlFrZlNyNDI0SzFYQmNEMy93Q3dwNTh6M2drQUFEU2tBRUF4aVVmdGlkY0VYS2NBQUVCRC94WUEzLzlESFVtZnVKT3VCYmp1TXV1ZEFBQkFRd29BRkpYd3lUdmhHb0RIS0FCUTJNb0FGdjVRbXdJQXhhMElZdUVQOWYweWhoY0FvYnFaZ1N6OG9iYVh6SGNDQUp1WUVjekNIL2FoQU1CR0JEUndLd1VBQUJwU0FBQ2dJUVVBQUJwU0FBQ2dJUVVBQUJyNnhkOEJBQUM5ZlB2OTEzK2NBQUJBUXdvQUFEU2tBQUJBUXdvQUFEU2tBQUJBUXdvQUFEU2tBQUJBUXdvQUFEU2tBQUJBUXdvQUFEU2tBQUJBUXdvQUFEU2tBQUJBUXdvQUFEU2tBQUJBUXdvQUFEU2tBQUJBUXdvQUFEU2tBQUJBUXdvQUFEU2tBQUJBUXdvQUFEU2tBQUJBUXdvQUFEU2tBQUJBUXdvQUFEU2tBQUJBUXdvQUFEU2tBQUJBUXdvQUFEU2tBQUJBUXdvQUFEU2tBQUJBUXdvQUFEU2tBQUJBUXdvQUFEU2tBQUJBUXdvQUFEU2tBQUJBUXdvQUFEU2tBQUJBUXdvQUFEU2tBQUJBUXdvQUFEU2tBQUJBUXdvQUFEU2tBQUJBUXdvQUFEU2tBQUJBUXdvQUFEU2tBQUJBUXdvQUFEU2tBQUJBUXdvQUFEU2tBQUJBUXdvQUFEU2tBQUJBUXdvQUFEU2tBQUJBUXdvQUFEU2tBQUJBUXdvQUFEU2tBQUJBUXdvQUFEU2tBQUJBUXdvQUFEU2tBQUJBUXdvQUFEU2tBQUJBUXdvQUFEU2tBQUJBUXdvQUFEU2tBQUJBUXdvQUFEU2tBQUJBUXdvQUFEU2tBQUJBUXdvQUFEU2tBQUJBUXdvQUFEU2tBQUJBUXdvQUFEU2tBQUJBUXdvQUFEU2tBQUJBUXdvQUFEU2tBQUJBUXdvQUFEU2tBQUJBUXdvQUFEU2tBQUJBUXdvQUFEU2tBQUJBUXdvQUFEU2tBQUJBUXdvQUFEU2tBQUJBUXdvQUFEU2tBQUJBUXdvQUFEU2tBQUJBUXdvQUFEU2tBQUJBUXdvQUFEU2tBQUJBUXdvQUFEU2tBQUJBUXdvQUFEU2tBQUJBUXdvQUFEU2tBQUJBUXdvQUFEU2tBQUJBUXdvQUFEU2tBQUJBUXdvQUFEU2tBQUJBUXdvQUFEU2tBQUJBUXdvQUFEU2tBQUJBUXdvQUFEU2tBQUJBUXdvQUFEU2tBQUJBUXdvQWJPVHI5NzlLLy9uQVBBb0FiR0pXT0NzQnNBY0ZBRFl3TzVTVkFLaFBBWURpVm9XeEVnQzFmZm4yKzYvL3JMNEk0SDVKQWZ6OTYyK3JMd0c0a3hNQUtDZ3AvTWZJdXg3Z2N3b0FGSk1hdHFuWEJieFBBWUJDMGtNMi9mcUEvM2dIQUFxb0ZxemVDWUI4Q2dDRXF4YitseFFCeU9VckFBaFdPZnpIcUgvOXNETUZBRUx0RXA2NzNBZnNSZ0dBUUx1RjVtNzNBenZ3RGdBRTJUMG92Uk1BT1JRQUNMRjcrRjlTQkdBOVh3RkFnRTdoUDBhLys0VkVDZ0FzMWpVTXU5NDNwRkFBWUtIdUlkajkvbUVsN3dEQUFvTHZOZThFd0h4T0FHQ3lwUEJQQ2Q2djMvK0tHaGZvd0FrQVRKUVNjdThGZi9LMUFjZHpBZ0NUcEFkc1N2Q21qQlBzemdrQW5Dd3AwRzRKK1pUclRTa2tzQ3NuQUhDaWxEQWQ0L1pBVFFuZXBMR0RIVGtCZ0pPa0JOaWpnWjV5L1dQa2xCTFlpUUlBSjBnSnp5T0NjNmQ3QWY3akt3QTQyRzZCbVJLOEtlTUt1M0FDQUFkSkNxZ3pRanZsL2xJS0NWU25BTUFCVXNKeGpITURzc3Q5UWdjS0FEd3BKUlJuQldMSy9ZNmhCTUF6RkFCNFFrb1lyZ2pDenZjT08vQVNJRHlvZXdDbUJHL0tjNEJxbkFEQW5aSUNKeUdFVThZallTeWdFZ1VBN3BBU2RtTmtCWjV4Z1hvVUFMaFJTc2lsQmx6SytJeVJPMGFRUkFHQUc2U0VXNFZnTTFaUWd3SUFWNlNFMlJpMUFpMWwzQ3FOR2N6bVZ3RHdnWlFRRzZOZWtLVmNiOUl6aERST0FPQWRLY0dSRXFTUFNobkhNZXFQSlJ4TkFZQ2ZwSVRXVG9GbFRDR1Byd0RnZ3FBNlI4cjlwRHhmU09BRUFFWldNS1NFNVJsU3hubm5NWVpiT1FHZ3ZaUlFHbVAvWUVxNXY2Um5EcXM0QWFDMWxDQklDY1paVXNaOWpINWpEeThVQU5wS0NhSE9BZVFad0RxK0FxQWx3Wk1oNWY1VDVnUE01QVNBVnBJMitwVHdTNUR5WER3VE9uRUNRQnNwSVRPR29QbFp5bmdrelJFNG14TUFXa2paMkZPQ0xsWEtjeHJEczJKL0NnRGJTd2tWZ1hJN3p3ek81eXNBdGlaSWFrb1pyNVQ1QTJkd0FzQ1dramJ1bERDcktPVTVlb2JzU0FGZ08wSmpMNTRubkVNQllDdkNZazhwejNVTXo1WjlLQUJzSXlVa0JNUjVQR000amdKQWVTbWhNSVpnbUNIbGVYdldWT2RYQUpTV0VnWmpDSVJaVXNZNWFlN0JJNXdBVUZiS0Jwd1NTTjE0L3ZBY0JZQ1NiUDZNa1RNUHhqQVhxRWNCb0p5VVRkK0duOE9jZ1BzcEFKU1Jzc21QWWFOUGxESS96QTJxOEJJZ0phUnM3bVBZNEZPbFBKZWt1UXJYT0FFZ1hzcUdtaEl3WEdlK3dHMFVBS0xaekhsRXlyd1p3OXdobHdKQXJKUk4zQVplbHprRUgxTUFpSk95YVk5aDQ5NUJ5bnd5bDBpakFCREZaczBaekN0NHk2OEFpR0dUNWl3cHp6Umxqc01ZVGdBSWtiSXhwZ1FGNTBpWloyT1lhNnluQUxDVURaa1ZVdWFkT2NkS3ZnSmdtWlJOZUF3YmNUY3B6enRwRGRDUEV3Q1dTTm40VW9LQU5jeERPbk1Dd0hRMlhWS2t6SUdVTlVFdlRnQ1lLbVdqUzluNHlaQXlMOGN3TjVsSEFXQUtHeXdWcE14VGM1UVpmQVhBNlZJMjFURnNyRnlYTWorUzFnejdjZ0xBcVZJMnNwU05uUnJNV3pwd0FzQnBiS0pVbFRKblV0WVFlM0lDd0NsU05xNlVqWnlhVXVieEdPWXl4MU1BT0pRTmt4Mmx6R3R6bWlQNUNvRERwR3lTWTlnb09WYktmRXBhWTlUbkJJQkRwR3hNS1JzMWV6TFAyWWtDd05Oc2luU1NNdC9ITU9kNWpnTEF3MnlFZEdYdXN3TUZnSWZZQUNGbkhWZ0RQRUlCNEc0MlBmaVA5VUJWZmdYQVhXeDI4RnJLWEV4Wm05VGhCSUNicFd3d0tSc3VYRXBaSDJOWUk5eEdBZUJUTmphNGpiVkNKUW9BVjluUTRINHA2OGFhNFJvRmdBL1p4T0J4MWcvcHZBVEl1MnhlOEp5VXVadXlsc25qQklBM1VqYU1sQTBVbnBHeW5zYXdwbmhOQWVCZk5pbzRUOHI2c3JaNDRTc0F4aGc1bTlNWU5pajJsREt2azlZNmF6a0JhS0RLZ2svWklPRk0xaU1wRklDTlZkbG94ckRaMEl1MVNRSUZZRU9WTnBjeGJERDBaSjJ5bWdLd2tXb2J5aGcyRmFpMmJxM1pmU2dBbTdDSlFGM1dMeXY0RmNBR2JCNVFXN1UxVVczUDRYMEtRSEhWRm1LMWpRNW1xYlkycXUwOXZLVUFGRlp0QVZiYjRHQzJhbXVrMmg3RWF3b0FVMVRiMkdDVjcxOS9zMTZZd2t1QVJWVnAzall5ZUp4MXpwbWNBSEFhbXdJOHh4cmlUQXBBUVJVK0ZkaTQ0QmdWMWxLRlBZbTNGQUFPVjJIRGdrcXNLYzdnSFlCaTBwdTJqUXJPbGJ3SFdQKzFPQUhnRU41Y2hqbXNNNDZpQVBBMEd4TE1aYzF4QkFXQXA5aUlZQTFyajJjcEFEek1CZ1JyV1lNOFF3RUFnSVlVQUFCb1NBRUFnSVlVQUFCb1NBRW9KdVdsbjVUcmdPNVMxbUxLZFhBN0JRQUFHbElBaWtuNWEwQlRyZ082UzFtTEtkZkI3UlFBQUdoSUFTZ2tyV0duWFE5MGs3WUcwNjZINnhRQUFBNmpCTlNoQUJTUnVxaFNyd3QyWiszeExBV2dnUFNGbm41OXNKdjBOWmQrZmZ5Z0FBQkFRd3BBdUNwTnVzcDFRblZWMWxxVjYreE1BUUNBaGhTQVlOVWFkTFhyaFdxcXJiRnExOXVOQWdEQWFaU0FYQXBBcUtxTHB1cDFRenByaTZNcEFJR3FML1RxMXc5cHFxK3A2dGUvS3dVQUFCcFNBTUxzMHBSM3VROVliWmUxdE10OTdFUUJBSUNHRklBZ3V6WGszZTRIWnR0dERlMTJQOVVwQUExOS8vcmI2a3NBZ3N6Y0U1U0FIQXBBaUYwWHhhNzNCV2V6ZGppYkFoQmc1a0ovYWZvYVArU3lKekNEQWdEQUdNUFhnOTBvQUl1dGFQb2YvZk9aTkg2NHpjbzlZU1o3d25vS1FCTWZMWFNOSDNwSzJCT1VnTFVVZ0lXNlRmNXU5d3Yzc2thWVNRRm80TE5HN3hRQWVrbmFFNVNlZFJTQVJicE8rcTczRFo5Sld4cytHT3hQQWRqY3JZdllZb2NlRXRkNld2bnBRZ0ZZb1B0azczNy84TFBVTlpGWUZqaU9BakJaOGs5OGZPOEg4eVh2Q1RQWkUrWlRBRGIxNkVKUDNpQ0F4MVhZRTVTQXVSU0FpVXp1MTR3SDNWa0RyS1FBYk9qWnh1NFVBUFpTYVU5UWl1WlJBQ1l4cWQ5blhPaXEydHozd1dBL0NzQm1qbHFrRmp2c29lSmFybGFPcWxJQUpqQ1pyek0rZEZOMXpsY3NFM3hNQVRoWjVaLzQrTjRQamxkNVQ1akpubkErQlFDQW0vbGdzQThGNEVRN05IMkxIWTZ6dzU3QVBoU0FEWnk5MEcwa1VNdE9lNElQQnVkUkFFNWkwajdHdUxHcjNlYTJEd2IxS1FERnpWcUVGanZVc09OYTNhMDhwVkFBVG1DeVBzZjRzWnRkNS9TT1phTVRCYUN3Mll2UFlvZHNPNi9SWFV2VVNnckF3VXpTWXhoSGRySDdYUFpDWUYwS3dJRTYvTVRIWW9mYmRkZ1RxRXNCS0dqMVFsLzl2dys4dG5wTittQlFrd0p3RUpQeUhNYVZxcnJOM2RVbGhQc3BBTVdrTExLVTY0RHVPcTdGYnVYcUxBckFBVXpHY3hsZnF1azZaenVXa2NvVWdFTFNGbGZhOVVBM25kZGcxNUoxSkFYZ1NTYmhITWFaS3JyUFZTOEUxcUVBUE1GUGZDeDJ1R1JQb0JJRm9JRDBoWjUrZmJDYjlEWG5nMEVOQ3NDRFRMbzFqRHVwek0zWDBrc0tDa0M4S291b3luVkNkZGJhVzhyWFl4U0FCNWhzYXhsLzBwaVQ3MU5Xc2lrQXdhb3RubXJYQzlWWVl4OVR3dTZuQU56SkpNdmdPWkRDWEx6T0M0RzVGSUE3K0luUDV5eDJPckVuVUprQ0FNQ3BmRERJcEFEY1NOTy9uY1ZPQi9hRSsreHdEN3RSQU1Mc3NraDJ1UTlZelZxNm53OEd0MUVBYm1BeVpmTjhtTTJjZTR3eWsrV1hQLzc4Kzh2cWkrQ0gzUmJIYnZjRHMxbERqMVBTcnZ2ano3Ky9PQUg0aEVsVWcrZkVMT2JhYzd3amxFTUJDTEZyMDkvMXZ1QnMxZzVuVXdDdTBCNXI4Ync0bXpsMkRLY0FHUlNBRC9pSnozRXNkblpnVHpoV2gzdE1wd0FzMW1VUmRMbFBlSmExY2p3ZkRONm5BTHpEWktuTjgrTm81dFE1bEoyMUZJQ0Z1azMrYnZjTDk3Skd6cVBFdmZYTEdEOStEN2o2UWxLWUpIdndIRG1LdVhRdTd3ak45NUw1VGdBVzZkcjB1OTQzZk1iYVlEWUY0SUoydUJmUGsyZVpRM000QlZoREFmaC9mdUl6ajhWT0JmYUV1WXpCZkFvQUFLMzRZUEREdndXZzg0dUFtdjU4VGdGSVprOVl3NzV3dnN1c2R3SXdrWVgrbXZHZ08ydUFsZG9YZ0s0dHNCdlBtVnVaSzJzNUJaaW5mUUdZUmROL24zR2hLM1AvWThabWpsY0ZvTnQ3QU4zYlh6ZWVONTh4Ui9ycDlNeC96dmkySndCZThzbmh5SThFOW9Rc3h1aDhiUXNBQUl6Ujk0TkJ5d0tnNmVkeENzQks5b1JNOW9WenZTa0EzZDRET0pPRmZoL2p4ZTdNY1ZaNUw5dmJuUUIwYkhtOFpSN3d3bHpJNWhUZ1BPMEt3Q3lhL21PTUc3c3l0eDluN003eGJnSFk5V3VBYnUyTzY4d0h6QUYrdHVPYytDalQyNXdBZU1tbkRrZCt6R0JQcU1VWUh1OS9xeS9nYkRaNFB2TXlSMnd3UGRnVCtFeVhQZUhERTRBZHZnWllzZEIzbnpDenJCaEh3YkEvZTBKdHM4ZHloejNoV3Badit4V0FoVjZmRXNDUjdBazhZdWM5WWNzQ3NQTUQ0M3ptejM0ODAzMzRZSENjcXdXZzR0Y0FxeDZVcG4rT1ZlTzY2NEx2eUo2d0h5WGdOcDlsK0pZbkFBREFkWjhXZ0VxbkFKcitucHdDOENoN3dyNmNBbHgzUzNZN0FRQ0FocllwQUpyKzNwd0NjQzk3d3Y2Y0Fqem5wZ0pRNldzQUFPanMxc3plNWdSZ0JVMS9MdU5OT25OMFBtUCt1SnNMZ0ZPQTEweTZOWXc3cWN4TkV0eVQxVTRBQUtDaHV3cUFVd0FBeUhSdlJqc0JBSUNHN2k0QVRnRUFJTXNqMmJ6TkNjRE1GM0M4N0xPV1o4MHR6Sk0rUE92SFBGUUFuQUlBUUlaSE0zbWJFNEF4NWpTem5kcGZaWjQxdHpCUCt2Q3M3L2R3QVhBS0FBQnJQWlBGVDUwQUpKYUFNeHZhYnUydk9zK2FXNWduZlhSNzFzOW04RlpmQWJ3NDQwRWxQbnc4YTI1am52VGhXZC91NlFLUWVBb3d4ckVQYk5lSHZ3dlBtbHVZSjMxMGVOWkhaTytXSndBdmpuaHdxUStmMXp4cmJtR2U5T0ZaZis2d1QrL2Zmdi8xbjZQK3JEUGMrLy9odlB1RDM1bG56UzNNa3o1MmU5WkhuYndmZW55ZlhnTEcrSHdpcEQ5NGJ1ZFpjd3Z6cEk4ZG52V1JYN3UzS3dBQVVOV1JCZURRZHdCU1h3Z0VnT3FPenRqRFh3SlVBZ0RnV0dkazZ5bS9BbEFDQU9BWVoyWHExajhEQkFEZWQxb0JjQW9BQU04NU0wdFBQUUZRQWdEZ01XZG42T2xmQVNnQkFIQ2ZHZG5wSFFBQWFHaEtBWEFLQUFDM21aV1owMDRBbEFBQXVHNW1Wazc5Q2tBSkFJRDN6YzdJNmU4QUtBRUE4TnFLYkZ6eUVxQVNBQUEvck1yRVpiOENVQUlBNkc1bEZpNzlHYUFTQUVCWHF6TncrZDhEc0hvQUFHQzJoT3hiWGdER3lCZ0lBSmdoSmZNaUNzQVlPUU1DQUdkSnlycVlBakJHMXNBQXdKSFNNaTZxQUl5Uk4wQUE4S3pFYklzckFHTmtEaFFBUENJMTB5SUx3Qmk1QXdZQXQwck9zdGdDTUViMndBSEFOZWtaRmwwQXhzZ2ZRQUQ0V1lYc2lyL0FTOTkrLy9XZjFkY0FBQitwRVB3djRrOEFMbFVhV0FCNnFaWlJwUXJBR1BVR0dJRDlWY3ltY2hkOHlWY0NBS3hVTWZoZmxEc0J1RlI1NEFHb3JYb0dsUzRBWTlSL0FBRFVzMFAybEwrQlM3NFNBT0JNT3dUL2kvSW5BSmQyZWpBQVpOa3RZN2E2bVV0T0F3QTR3bTdCLzJMTG03cWtDQUR3aUYyRC84VldYd0c4Wi9jSENNRHhPbVRIOWpkNHlXa0FBTmQwQ1A0WGJXNzBraUlBd0tWT3dmK2kzUTFmVWdRQWV1c1kvQy9hM3ZnbFJRQ2dsODdCLzZMOUFGeFNCQUQySnZqL1l5QStvQXdBN0VIb3Y4K2dmRUlSQUtoSjhGOW5jTzZnREFCa0UvcTNNMUFQVWdZQU1najl4eGkwQXlnREFITUovZWNad0JNb0JBREhFdmpITTZBVEtBUUE5eEg0NXpQQWl5Z0ZBRDhJK3pVTWVpZ0ZBZGlGZ00vMGYrTnZMUVVXdSs1U0FBQUFBRWxGVGtTdVFtQ0MiLCAic2l6ZXMiOiAiNTEyeDUxMiIsICJ0eXBlIjogImltYWdlL3BuZyIsICJwdXJwb3NlIjogImFueSBtYXNrYWJsZSJ9XX0=">
+<link rel="icon" type="image/png" sizes="192x192" href="data:image/png;base64,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">
+<link rel="apple-touch-icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAV9klEQVR4nO3dy5UcN7YFUFCrLZIBMkgzTmQEJ5zJIBkgl/QGfCVlsaqy8hMBnIu790yrW+wIBIBzEhnJ/jKI9O33X/9ZfQ0AR/jjz7+/rL4G3vJQFhHwAD8oCGsY9AmEPcB9lILzGeATCHyAYykExzOgBxD4AHMpBM8zgA8S+gAZlIHHGLQ7CH2AbMrA7QzUJ4Q+QE3KwHUG5wOCH2APisD7DMoFoQ+wN2XgPwZiCH6AbhSB5gVA8AP01rkItLxxwQ/ApY5FoNUNC34ArulUBFrcqOAH4B4disAvqy/gbMIfgHt1yI5tG06HhwfA+XY9DdjupgQ/AGfYrQhs9RWA8AfgLLtlzBZtZreHAkC2HU4Dyp8ACH8AZtshe0oXgB0eAAA1Vc+gkkcY1QcdgL1U/Eqg3AmA8AcgTcVsKlUAKg4wAD1Uy6gSRxbVBhWA3ip8JRB/AiD8AaimQnZFF4AKAwgA70nPsNgCkD5wAPCZ5CyLLADJAwYA90jNtLgCkDpQAPCoxGyLKgCJAwQAR0jLuJgCkDYwAHC0pKyLKABJAwIAZ0rJvOUFIGUgAGCWhOxbWgASBgAAVlidgcsKwOobB4DVVmbhkgIg/AHgh1WZOL0ACH8AeG1FNk4tAMIfAN43OyOnFQDhDwDXzczKKQVA+APAbWZl5vK/BwAAmO/0AuDTPwDcZ0Z2nloAhD8APObsDD2tAAh/AHjOmVnqHQAAaOiUAuDTPwAc46xMPbwACH8AONYZ2XpoARD+AHCOozPWOwAA0NBhBcCnfwA415FZe0gBEP4AMMdRmesrAABo6OkC4NM/AMx1RPY6AQCAhp4qAD79A8Aaz2bwwwVA+APAWs9ksa8AAKChL4/8Sz79Q01fv/919T///vW3SVcCHOmPP/++O8//d8aFADk+C/2P/rvKAOzt7sbg0z/UcE/wX6MIQA33ngI4AYDNHBX8P/95igDs5a6XAH36h2xHh/+sPxt43r0Z7VcAsIkZAa0EwD5uLgA+/UOumcGsBECue7LaCQAUtyKQlQCo76YC4NM/ZFoZxEoAZLo1s50AQFEJAZxwDcBjFAAAaOjTAuD4H/IkffJOuhbgh1uy2wkAADR0tQD49A95Ej9xJ14TdPdZhjsBAICGFAAAaOjDAuD4H/IkH7UnXxt0dS3LnQAAQEMKAAA09G4BcPwPAHv4KNOdAABAQwoAADT0pgA4/geAvbyX7U4AAKAhBQAAGlIAoJDvX39bfQkfSr424K1XBcD3/wCwp58z3gkAADSkAEAxiUftidcEXKcAAEBD/xYA3/9DHUmfuJOuBbjuMuudAABAQwoAFJXwyTvhGoDHKABQ2MoAFv5QmwIAxa0IYuEP9f0yhhcAobqZgSz8obaXzHcCAJuYEczCH/ahAMBGBDRwKwUAABpSAACgIQUAABpSAACgIQUAABr6xd8BAAC9fPv913+cAABAQwoAADSkAABAQwoAADSkAABAQwoAADSkAABAQwoAADSkAABAQwoAADSkAABAQwoAADSkAABAQwoAADSkAABAQwoAADSkAABAQwoAADSkAABAQwoAADSkAABAQwoAADSkAABAQwoAADSkAABAQwoAADSkAABAQwoAADSkAABAQwoAADSkAABAQwoAADSkAABAQwoAADSkAABAQwoAADSkAABAQwoAADSkAABAQwoAADSkAABAQwoAADSkAABAQwoAADSkAABAQwoAADSkAABAQwoAADSkAABAQwoAADSkAABAQwoAADSkAABAQwoAADSkAABAQwoAADSkAABAQwoAADSkAABAQwoAADSkAABAQwoAADSkAABAQwoAADSkAABAQwoAADSkAABAQwoAADSkAABAQwoAADSkAABAQwoAADSkAABAQwoAADSkAABAQwoAADSkAABAQwoAADSkAABAQwoAADSkAABAQwoAADSkAABAQwoAADSkAABAQwoAADSkAABAQwoAADSkAABAQwoAADSkAABAQwoAADSkAABAQwoAADSkAABAQwoAADSkAABAQwoAADSkAABAQwoAADSkAABAQwoAADSkAABAQwoAADSkAABAQwoAADSkAABAQwoAADSkAABAQwoAADSkAABAQwoAADSkAABAQwoAADSkAABAQwoAADSkAABAQwoAADSkAABAQwoAADSkAABAQwoAADSkAABAQwoAADSkAABAQwoAbOTr979K//nAPAoAbGJWOCsBsAcFADYwO5SVAKhPAYDiVoWxEgC1ffn2+6//rL4I4H5JAfz962+rLwG4kxMAKCgp/MfIux7gcwoAFJMatqnXBbxPAYBC0kM2/fqA/3gHAAqoFqzeCYB8CgCEqxb+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">
+<style>
+  :root {
+    --ink: #1C2B3A;
+    --bg: #F3EFE6;
+    --card-bg: #FBF9F4;
+    --card-bg-2: #EFE9DA;
+    --brass: #8A6A32;
+    --brass-strong: #6E5326;
+    --brass-bg: #ECE1C8;
+    --line: #D8D0BE;
+    --muted: #6B6559;
+    --forest: #33513C;
+    --forest-bg: #E3EADD;
+    --rust: #7C3A34;
+    --rust-bg: #F1E1DD;
+    --focus: #8A6A32;
+    box-sizing: border-box;
+    padding-top: env(safe-area-inset-top, 0px);
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+  }
+  :root:not([data-theme="light"]) {
+    @media (prefers-color-scheme: dark) {
+      --ink: #EAE4D6; --bg: #141B22; --card-bg: #1C2531; --card-bg-2: #212C3A;
+      --brass: #C9A055; --brass-strong: #E0B76B; --brass-bg: #362C1B; --line: #33404D;
+      --muted: #9BA3AC; --forest: #86C39A; --forest-bg: #1F332A; --rust: #D98A82; --rust-bg: #362222; --focus: #C9A055;
+    }
+  }
+  :root[data-theme="dark"] {
+    --ink: #EAE4D6; --bg: #141B22; --card-bg: #1C2531; --card-bg-2: #212C3A;
+    --brass: #C9A055; --brass-strong: #E0B76B; --brass-bg: #362C1B; --line: #33404D;
+    --muted: #9BA3AC; --forest: #86C39A; --forest-bg: #1F332A; --rust: #D98A82; --rust-bg: #362222; --focus: #C9A055;
+  }
+  html { scroll-padding-top: env(safe-area-inset-top, 0px); }
+  * { box-sizing: border-box; }
+  html, body { height: auto; margin: 0; background: var(--bg); color: var(--ink); font-family: 'Leelawadee UI','Noto Sans Thai','Thonburi','Tahoma','Segoe UI',sans-serif; -webkit-font-smoothing: antialiased; }
+  body { padding: env(safe-area-inset-top,0px) env(safe-area-inset-left,0px) env(safe-area-inset-bottom,0px) env(safe-area-inset-right,0px); }
+  @media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
+  a { color: var(--brass-strong); }
+
+  .skip-link {
+    position: absolute; left: 12px; top: -60px; z-index: 1000;
+    background: var(--brass); color: var(--card-bg);
+    padding: 10px 16px; border-radius: 8px; font-size: 0.9rem; font-weight: 600;
+    transition: top 0.15s ease;
+  }
+  .skip-link:focus { top: 12px; }
+
+  /* ---------- Disclaimer bar ---------- */
+  .disclaimer-bar {
+    background: var(--brass-bg);
+    border-bottom: 1px solid var(--line);
+    padding: 10px 20px;
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+    font-size: 0.82rem;
+    line-height: 1.6;
+    color: var(--ink);
+  }
+  .disclaimer-bar svg { width: 17px; height: 17px; flex: none; margin-top: 2px; color: var(--brass-strong); }
+  .disclaimer-bar strong { font-weight: 600; }
+
+  .app { max-width: 1060px; margin: 0 auto; padding: 34px 20px 64px; }
+
+  /* ---------- Top bar (lang + ref) ---------- */
+  .top-controls { display: flex; justify-content: flex-end; gap: 10px; margin-bottom: 18px; flex-wrap: wrap; }
+  .pill-btn {
+    background: none; border: 1px solid var(--line); color: var(--ink);
+    font-family: 'Leelawadee UI','Noto Sans Thai','Thonburi','Tahoma','Segoe UI',sans-serif; font-size: 0.86rem; font-weight: 500;
+    padding: 8px 14px; border-radius: 20px; cursor: pointer;
+    display: inline-flex; align-items: center; gap: 6px;
+  }
+  .pill-btn:hover { border-color: var(--brass); }
+  .pill-btn:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+  .pill-btn svg { width: 15px; height: 15px; }
+  .lang-switch { display: inline-flex; border: 1px solid var(--line); border-radius: 20px; overflow: hidden; }
+  .lang-switch button {
+    background: var(--card-bg); border: none; color: var(--muted); font-family: 'Leelawadee UI','Noto Sans Thai','Thonburi','Tahoma','Segoe UI',sans-serif;
+    font-size: 0.84rem; font-weight: 600; padding: 8px 14px; cursor: pointer;
+  }
+  .lang-switch button.active { background: var(--brass); color: var(--card-bg); }
+  .lang-switch button:focus-visible { outline: 2px solid var(--focus); outline-offset: -2px; }
+
+  /* ---------- Hero ---------- */
+  .hero { display: grid; grid-template-columns: 1fr auto; gap: 28px; align-items: end; padding-bottom: 22px; margin-bottom: 14px; border-bottom: 1px solid var(--line); }
+  .hero h1 { font-family: 'Leelawadee UI','Noto Serif Thai','Angsana New','Thonburi','Tahoma',serif; font-weight: 600; font-size: clamp(1.55rem, 3.6vw, 2.3rem); line-height: 1.32; margin: 0 0 10px; max-width: 22ch; }
+  .hero p { margin: 0; color: var(--muted); font-size: 1rem; line-height: 1.7; max-width: 50ch; }
+  .hero-mark { flex: none; color: var(--brass); opacity: 0.9; }
+  .hero-mark svg { width: 56px; height: 56px; display: block; }
+  @media (max-width: 640px) { .hero { grid-template-columns: 1fr; } .hero-mark { display: none; } }
+
+  /* ---------- Stage layout ---------- */
+  .stage { display: grid; grid-template-columns: 240px 1fr; gap: 32px; align-items: start; margin-top: 24px; }
+  @media (max-width: 780px) { .stage { grid-template-columns: 1fr; } }
+
+  /* ---------- Trail ---------- */
+  details.trail-wrap { border: 1px solid var(--line); border-radius: 12px; background: var(--card-bg-2); overflow: hidden; }
+  @media (min-width: 780px) {
+    details.trail-wrap { position: sticky; top: 20px; border: none; background: none; }
+    details.trail-wrap summary { display: none; }
+    details.trail-wrap .trail { display: block !important; padding: 4px 4px; }
+  }
+  .trail-summary { list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 10px; padding: 14px 16px; cursor: pointer; font-size: 0.92rem; font-weight: 500; color: var(--ink); }
+  .trail-summary::-webkit-details-marker { display: none; }
+  .trail-summary .chev { width: 16px; height: 16px; color: var(--muted); transition: transform 0.18s ease; flex: none; }
+  details[open] > .trail-summary .chev { transform: rotate(180deg); }
+  .trail { display: flex; flex-direction: column; padding: 4px 16px 16px; }
+  @media (min-width: 780px) { .trail { padding: 0; } }
+  .trail-step { position: relative; display: flex; gap: 14px; padding-bottom: 22px; }
+  .trail-step:last-child { padding-bottom: 0; }
+  .trail-step::before { content: ""; position: absolute; left: 11px; top: 26px; bottom: 0; width: 1px; background: var(--line); }
+  .trail-step:last-child::before { display: none; }
+  .trail-step.done::before { background: var(--brass); opacity: 0.45; }
+  .trail-dot { flex: none; width: 23px; height: 23px; border-radius: 50%; border: 1.5px solid var(--line); background: var(--card-bg); display: flex; align-items: center; justify-content: center; font-size: 0.72rem; color: var(--muted); margin-top: 1px; }
+  .trail-step.done .trail-dot { border-color: var(--brass); color: var(--brass-strong); background: var(--card-bg); }
+  .trail-step.current .trail-dot { border-color: var(--brass); background: var(--brass); color: var(--card-bg); }
+  .trail-body { padding-top: 1px; }
+  .trail-q { font-size: 0.85rem; line-height: 1.55; color: var(--muted); margin: 0 0 4px; }
+  .trail-step.current .trail-q { color: var(--ink); font-weight: 500; }
+  .trail-a { display: inline-block; font-size: 0.76rem; font-weight: 500; padding: 2px 8px; border-radius: 20px; background: var(--forest-bg); color: var(--forest); }
+
+  /* ---------- Progress ---------- */
+  .progress-wrap { margin-bottom: 18px; }
+  .progress-label { font-size: 0.78rem; color: var(--muted); margin-bottom: 6px; }
+  .progress-track { height: 6px; border-radius: 4px; background: var(--card-bg-2); border: 1px solid var(--line); overflow: hidden; }
+  .progress-fill { height: 100%; background: var(--brass); border-radius: 4px; transition: width 0.25s ease; }
+
+  /* ---------- Panel cards ---------- */
+  .panel { min-height: 320px; }
+  .qcard, .rcard, .refcard { background: var(--card-bg); border: 1px solid var(--line); border-radius: 16px; padding: 34px 30px; }
+  @media (max-width: 520px) { .qcard, .rcard, .refcard { padding: 24px 18px; } }
+  .qcard.enter, .rcard.enter, .refcard.enter { animation: rise 0.28s ease both; }
+  @keyframes rise { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+
+  .q-eyebrow { display: flex; align-items: center; justify-content: space-between; margin-bottom: 10px; }
+  .q-step { font-size: 0.85rem; color: var(--muted); }
+  .q-restart { background: none; border: none; color: var(--muted); font-size: 0.85rem; cursor: pointer; padding: 4px 2px; text-decoration: underline; text-underline-offset: 3px; }
+  .q-restart:hover { color: var(--ink); }
+  .q-text { font-family: 'Leelawadee UI','Noto Serif Thai','Angsana New','Thonburi','Tahoma',serif; font-weight: 600; font-size: clamp(1.1rem, 2.4vw, 1.42rem); line-height: 1.62; margin: 10px 0 16px; max-width: 54ch; }
+  .q-hint { font-size: 0.9rem; color: var(--muted); line-height: 1.7; margin: -6px 0 18px; max-width: 54ch; }
+
+  details.q-examples { margin: -4px 0 22px; }
+  details.q-examples summary { list-style: none; cursor: pointer; font-size: 0.85rem; color: var(--brass-strong); font-weight: 500; display: inline-flex; align-items: center; gap: 5px; }
+  details.q-examples summary::-webkit-details-marker { display: none; }
+  details.q-examples summary svg { width: 13px; height: 13px; transition: transform 0.15s ease; }
+  details.q-examples[open] summary svg { transform: rotate(90deg); }
+  details.q-examples ul { margin: 10px 0 0; padding-left: 18px; font-size: 0.87rem; line-height: 1.7; color: var(--muted); }
+
+  .answers { display: flex; gap: 14px; flex-wrap: wrap; }
+  .ans-btn { flex: 1 1 210px; display: flex; align-items: center; justify-content: space-between; gap: 10px; padding: 16px 20px; border-radius: 12px; border: 1.5px solid var(--line); background: var(--card-bg-2); color: var(--ink); font-family: 'Leelawadee UI','Noto Sans Thai','Thonburi','Tahoma','Segoe UI',sans-serif; font-size: 0.96rem; font-weight: 500; line-height: 1.5; cursor: pointer; text-align: left; }
+  html[dir="rtl"] .ans-btn { text-align: right; }
+  .ans-btn:hover { border-color: var(--brass); }
+  .ans-btn:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+  .ans-btn svg { width: 18px; height: 18px; flex: none; color: var(--brass); opacity: 0; }
+  .ans-btn:hover svg, .ans-btn:focus-visible svg { opacity: 1; }
+
+  .q-back { margin-top: 24px; background: none; border: none; color: var(--muted); font-size: 0.88rem; cursor: pointer; padding: 6px 0; display: inline-flex; align-items: center; gap: 6px; }
+  .q-back:hover { color: var(--ink); }
+  .q-back svg { width: 14px; height: 14px; }
+
+  /* ---------- Result dashboard ---------- */
+  .rcard { border-color: var(--brass); }
+  .rcard.warn { border-color: var(--rust); }
+  .r-eyebrow { font-size: 0.8rem; font-weight: 600; letter-spacing: 0.02em; color: var(--brass-strong); margin-bottom: 12px; }
+  .r-head { display: flex; align-items: flex-start; gap: 18px; margin-bottom: 18px; }
+  .r-icon { flex: none; width: 52px; height: 52px; border-radius: 12px; background: var(--forest-bg); color: var(--forest); display: flex; align-items: center; justify-content: center; }
+  .r-icon.none { background: var(--rust-bg); color: var(--rust); }
+  .r-icon svg { width: 28px; height: 28px; }
+  .r-titles h2 { font-family: 'Leelawadee UI','Noto Serif Thai','Angsana New','Thonburi','Tahoma',serif; font-weight: 700; font-size: clamp(1.2rem, 2.8vw, 1.55rem); margin: 0 0 4px; line-height: 1.35; }
+  .r-titles .r-en { font-size: 0.9rem; color: var(--muted); }
+
+  .r-disclaimer { display: flex; gap: 10px; background: var(--brass-bg); border-radius: 10px; padding: 12px 14px; font-size: 0.84rem; line-height: 1.6; margin-bottom: 20px; }
+  .r-disclaimer svg { width: 16px; height: 16px; flex: none; margin-top: 2px; color: var(--brass-strong); }
+
+  .r-desc { font-size: 0.98rem; line-height: 1.85; margin: 0 0 22px; max-width: 64ch; color: var(--ink); }
+  .r-facts { display: grid; grid-template-columns: repeat(2, 1fr); gap: 14px; margin-bottom: 24px; }
+  @media (max-width: 560px) { .r-facts { grid-template-columns: 1fr; } }
+  .r-fact { border: 1px solid var(--line); border-radius: 10px; padding: 14px 16px; background: var(--card-bg-2); }
+  .r-fact-label { font-size: 0.78rem; color: var(--muted); margin-bottom: 5px; }
+  .r-fact-val { font-size: 0.91rem; font-weight: 500; line-height: 1.55; }
+
+  .r-advice { border-top: 1px solid var(--line); padding-top: 18px; margin-bottom: 20px; }
+  .r-advice h3, .r-roadmap h3, .r-overlap h3 { font-size: 0.95rem; font-weight: 600; margin: 0 0 12px; }
+  .r-advice ul { margin: 0; padding-left: 20px; line-height: 1.8; font-size: 0.94rem; }
+  .r-advice li { margin-bottom: 4px; }
+
+  .r-roadmap { border-top: 1px solid var(--line); padding-top: 18px; margin-bottom: 20px; }
+  .rm-step { position: relative; display: flex; gap: 14px; padding-bottom: 18px; }
+  .rm-step:last-child { padding-bottom: 0; }
+  .rm-step::before { content: ""; position: absolute; left: 12px; top: 26px; bottom: 0; width: 1px; background: var(--line); }
+  .rm-step:last-child::before { display: none; }
+  .rm-dot { flex: none; width: 25px; height: 25px; border-radius: 50%; background: var(--forest-bg); color: var(--forest); display: flex; align-items: center; justify-content: center; font-size: 0.74rem; font-weight: 600; }
+  .rm-text { font-size: 0.92rem; line-height: 1.65; padding-top: 3px; }
+
+  .r-overlap { background: var(--brass-bg); border-radius: 12px; padding: 16px 18px; margin-bottom: 20px; }
+  .r-overlap h3 { display: flex; align-items: center; gap: 7px; }
+  .r-overlap h3 svg { width: 16px; height: 16px; color: var(--brass-strong); flex: none; }
+  .r-overlap ul { margin: 0; padding-left: 20px; line-height: 1.75; font-size: 0.9rem; }
+  .r-overlap li { margin-bottom: 4px; }
+
+  .r-actions { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 8px; }
+  .btn { font-family: 'Leelawadee UI','Noto Sans Thai','Thonburi','Tahoma','Segoe UI',sans-serif; font-size: 0.92rem; font-weight: 500; padding: 11px 20px; border-radius: 10px; cursor: pointer; border: 1.5px solid var(--line); background: var(--card-bg-2); color: var(--ink); display: inline-flex; align-items: center; gap: 7px; }
+  .btn svg { width: 15px; height: 15px; }
+  .btn:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+  .btn.primary { background: var(--brass); border-color: var(--brass); color: var(--card-bg); }
+  .btn:hover { border-color: var(--brass); }
+  .btn.primary:hover { background: var(--brass-strong); border-color: var(--brass-strong); }
+  .copy-toast { font-size: 0.82rem; color: var(--forest); margin-top: 10px; display: none; }
+  .copy-toast.show { display: block; }
+
+  /* ---------- Reference overview ---------- */
+  .refcard h2 { font-family: 'Leelawadee UI','Noto Serif Thai','Angsana New','Thonburi','Tahoma',serif; font-weight: 600; font-size: clamp(1.15rem, 2.6vw, 1.45rem); margin: 0 0 8px; }
+  .refcard > p { color: var(--muted); font-size: 0.92rem; line-height: 1.7; margin: 0 0 24px; max-width: 62ch; }
+  .empty-note { color: var(--muted); font-size: 0.92rem; line-height: 1.7; padding: 20px; text-align: center; border: 1px dashed var(--line); border-radius: 12px; }
+  .ref-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 14px; margin-bottom: 24px; }
+  @media (max-width: 620px) { .ref-grid { grid-template-columns: 1fr; } }
+  .ref-item { border: 1px solid var(--line); border-radius: 12px; padding: 16px 18px; background: var(--card-bg-2); }
+  .ref-item-head { display: flex; align-items: center; gap: 10px; margin-bottom: 8px; }
+  .ref-item-head .ri { width: 30px; height: 30px; border-radius: 8px; background: var(--forest-bg); color: var(--forest); display: flex; align-items: center; justify-content: center; flex: none; }
+  .ref-item-head .ri svg { width: 16px; height: 16px; }
+  .ref-item-head strong { font-size: 0.94rem; font-weight: 600; }
+  .ref-item p { margin: 0; font-size: 0.85rem; line-height: 1.6; color: var(--muted); }
+  .ref-item .ref-term { font-size: 0.79rem; color: var(--brass-strong); margin-top: 6px; font-weight: 500; }
+
+  footer { margin-top: 40px; padding-top: 20px; border-top: 1px solid var(--line); font-size: 0.82rem; color: var(--muted); line-height: 1.8; max-width: 74ch; }
+
+  @media print {
+    .disclaimer-bar, .top-controls, .hero-mark, details.trail-wrap, footer, .r-actions, .q-examples { display: none !important; }
+    body, .app { background: #fff !important; }
+    .rcard { border: none !important; padding: 0 !important; }
+    .stage { display: block !important; }
+  }
+</style>
+</head>
+<body>
+
+<a href="#panel" class="skip-link" id="skipLink">Skip to content / ข้ามไปยังเนื้อหาหลัก</a>
+
+<div class="disclaimer-bar" id="disclaimerBar">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 9v4M12 17h.01"/><path d="M10.3 3.9L2.5 18a2 2 0 001.8 3h15.4a2 2 0 001.8-3L13.7 3.9a2 2 0 00-3.4 0z"/></svg>
+  <span id="disclaimerText"></span>
+</div>
+
+<div class="app">
+
+  <div class="top-controls">
+    <div class="lang-switch" role="group" aria-label="Language / ภาษา">
+      <button id="langTh" type="button">ไทย</button>
+      <button id="langEn" type="button">EN</button>
+    </div>
+    <button class="pill-btn" id="profileToggle" type="button" style="display:none;">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+      <span id="profileToggleLabel"></span>
+    </button>
+    <button class="pill-btn" id="refToggle" type="button">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 10h18M9 10v10"/></svg>
+      <span id="refToggleLabel"></span>
+    </button>
+  </div>
+
+  <div class="hero">
+    <div>
+      <h1 id="heroTitle"></h1>
+      <p id="heroSubtitle"></p>
+    </div>
+    <div class="hero-mark" aria-hidden="true">
+      <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round">
+        <path d="M32 4 V26"/><path d="M32 26 L16 42"/><path d="M32 26 L48 42"/>
+        <path d="M16 42 L8 54"/><path d="M16 42 L22 54"/><path d="M48 42 L42 54"/><path d="M48 42 L56 54"/>
+        <circle cx="32" cy="4" r="3.2" fill="currentColor" stroke="none"/>
+        <circle cx="16" cy="42" r="3" fill="currentColor" stroke="none"/>
+        <circle cx="48" cy="42" r="3" fill="currentColor" stroke="none"/>
+        <circle cx="8" cy="54" r="2.4" fill="currentColor" stroke="none"/>
+        <circle cx="22" cy="54" r="2.4" fill="currentColor" stroke="none"/>
+        <circle cx="42" cy="54" r="2.4" fill="currentColor" stroke="none"/>
+        <circle cx="56" cy="54" r="2.4" fill="currentColor" stroke="none"/>
+      </svg>
+    </div>
+  </div>
+
+  <div class="stage">
+    <details class="trail-wrap" open id="trailWrap">
+      <summary class="trail-summary">
+        <span id="trailSummaryText"></span>
+        <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+      </summary>
+      <div class="trail" id="trail"></div>
+    </details>
+
+    <div>
+      <div class="progress-wrap" id="progressWrap">
+        <div class="progress-label" id="progressLabel"></div>
+        <div class="progress-track"><div class="progress-fill" id="progressFill" style="width:0%"></div></div>
+      </div>
+      <div class="panel" id="panel" aria-live="polite" tabindex="-1"></div>
+    </div>
+  </div>
+
+  <footer>
+    <p id="footerText"></p>
+    <p id="dataNoticeText" style="margin-top:10px;"></p>
+  </footer>
+
+</div>
+
+<script>
+(function () {
+  "use strict";
+
+  /* ================= Icons ================= */
+  var ICONS = {
+    trademark: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3v6c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V6z"/><path d="M9 12l2 2 4-4"/></svg>',
+    copyright: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5h11a2 2 0 012 2v13H6a2 2 0 01-2-2z"/><path d="M17 5a2 2 0 012 2v11"/><path d="M8 10h5M8 13h5M8 16h3"/></svg>',
+    performer: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="3" width="6" height="10" rx="3"/><path d="M6 11a6 6 0 0012 0M12 17v4M9 21h6"/></svg>',
+    trade_secret: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="10" width="14" height="10" rx="1.5"/><path d="M8 10V7a4 4 0 018 0v3"/><circle cx="12" cy="15" r="1.4"/></svg>',
+    patent_invention: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3.2"/><path d="M12 3v2.4M12 18.6V21M21 12h-2.4M5.4 12H3M18.1 5.9l-1.7 1.7M7.6 16.4l-1.7 1.7M18.1 18.1l-1.7-1.7M7.6 7.6L5.9 5.9"/></svg>',
+    petty_patent: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="2.4"/><path d="M12 4v2.6M12 17.4V20M20 12h-2.6M6.6 12H4M17.4 6.6l-1.8 1.8M8.4 15.6l-1.8 1.8M17.4 17.4l-1.8-1.8M8.4 8.4L6.6 6.6"/><path d="M2 22l3-3"/></svg>',
+    design_patent: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M9 3h6l3 7-6 11L6 10z"/><path d="M6 10h12M9 3l3 7 3-7"/></svg>',
+    ic_layout: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="7" y="7" width="10" height="10" rx="1"/><path d="M9 3v2M12 3v2M15 3v2M9 19v2M12 19v2M15 19v2M3 9h2M3 12h2M3 15h2M19 9h2M19 12h2M19 15h2"/></svg>',
+    plant_variety: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21V9"/><path d="M12 13c0-5 4-8 8-8 0 5-3 8-8 8z"/><path d="M12 10c0-4-4-6-8-6 0 4 3 6 8 6z"/></svg>',
+    gi: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s7-6.3 7-11.5A7 7 0 105 9.5C5 14.7 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.4"/></svg>',
+    excluded: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8.5"/><path d="M6.5 6.5l11 11"/></svg>',
+    none: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="3" width="16" height="18" rx="1.5"/><path d="M9.2 9.5c0-1.5 1.2-2.6 2.8-2.6s2.6 1 2.6 2.2c0 1.4-1.2 1.8-2 2.5-.5.5-.6.9-.6 1.6"/><circle cx="12" cy="16.4" r="0.15" fill="currentColor"/></svg>'
+  };
+  var CHECK = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5 9-9"/></svg>';
+  var BACK = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>';
+  var LINK_ICON = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="7" cy="7" r="3"/><circle cx="17" cy="17" r="3"/><path d="M9.1 8.6l5.8 5.8"/></svg>';
+  var CHEV_RIGHT = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l6 6-6 6"/></svg>';
+  var PRINT_ICON = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9V3h12v6"/><rect x="4" y="9" width="16" height="8" rx="1"/><path d="M6 14h12v7H6z"/></svg>';
+  var COPY_ICON = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15V5a2 2 0 012-2h10"/></svg>';
+  var WARN_ICON = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 9v4M12 17h.01"/><path d="M10.3 3.9L2.5 18a2 2 0 001.8 3h15.4a2 2 0 001.8-3L13.7 3.9a2 2 0 00-3.4 0z"/></svg>';
+
+  /* ================= UI strings ================= */
+  var UI = {
+    heroTitle: { th: "ผลงานของคุณ จัดเป็นทรัพย์สินทางปัญญาประเภทไหน", en: "What Type of Intellectual Property Is Your Work?" },
+    heroSubtitle: { th: "ตอบคำถามทีละข้อ ระบบจะไล่ตามต้นไม้การตัดสินใจตามกฎหมายไทย พร้อมสรุปเป็นแดชบอร์ดและแนวทางขอรับความคุ้มครองในตอนท้าย", en: "Answer one question at a time. The tool follows a decision tree based on Thai law and ends with a dashboard summary plus a pathway to protection." },
+    disclaimer: { th: "เครื่องมือนี้ให้บริการ <strong>วิเคราะห์เบื้องต้นเท่านั้น (Preliminary Analysis Only)</strong> ผลลัพธ์ <strong>ไม่มีผลผูกพันทางกฎหมายและไม่ใช่คำวินิจฉัยที่ถูกต้องแน่นอน</strong> อาจเปลี่ยนแปลงได้ตามข้อเท็จจริงและกฎหมายที่เกี่ยวข้อง ก่อนดำเนินการใด ๆ จริง โปรดส่งให้ผู้เชี่ยวชาญด้านทรัพย์สินทางปัญญาตรวจสอบอีกครั้งเสมอ", en: "This tool provides <strong>Preliminary Analysis Only</strong>. The result <strong>has no legal effect and is not a definitive determination</strong> — it may change depending on the facts and applicable law. Before taking any real action, always have the result checked again by a qualified intellectual property professional." },
+    refToggle: { th: "ดูภาพรวมทุกประเภท", en: "View all categories" },
+    refTitle: { th: "ทรัพย์สินทางปัญญาไทย — ภาพรวมทั้งหมด", en: "Thai Intellectual Property — Full Overview" },
+    refDesc: { th: "สรุปสั้น ๆ ของแต่ละประเภท ใช้เป็นจุดอ้างอิงเร็ว ๆ ก่อนหรือหลังทำแบบประเมิน ผลงานหนึ่งชิ้นมักเข้าข่ายมากกว่าหนึ่งประเภทพร้อมกัน", en: "A quick summary of each category, useful as a fast reference before or after the assessment. One piece of work often qualifies for more than one category at the same time." },
+    refBack: { th: "กลับไปที่แบบประเมิน", en: "Back to the assessment" },
+    stepLabel: { th: "ขั้นตอนที่", en: "Step" },
+    restart: { th: "เริ่มใหม่", en: "Start over" },
+    restartResult: { th: "เริ่มประเมินใหม่", en: "Start a new assessment" },
+    back: { th: "ย้อนกลับ", en: "Back" },
+    backEdit: { th: "ย้อนกลับแก้คำตอบ", en: "Back to edit answer" },
+    examplesToggle: { th: "ไม่แน่ใจ? ดูตัวอย่างเพิ่มเติม", en: "Not sure? See more examples" },
+    factLaw: { th: "กฎหมายที่เกี่ยวข้อง", en: "Relevant law" },
+    factTerm: { th: "ระยะเวลาคุ้มครอง", en: "Protection term" },
+    adviceHeading: { th: "ขั้นตอนที่ควรทำต่อไป", en: "Recommended next steps" },
+    overlapHeading: { th: "จุดที่ควรตรวจสอบเพิ่มเติม", en: "Also worth checking" },
+    roadmapHeading: { th: "เส้นทางสู่การขอรับความคุ้มครอง", en: "Pathway to obtaining protection" },
+    resultEyebrow: { th: "ผลการประเมินของคุณ", en: "Your assessment result" },
+    dashDisclaimer: { th: "ผลนี้เป็น <strong>การวิเคราะห์เบื้องต้นเท่านั้น ไม่มีผลผูกพันทางกฎหมาย</strong> และไม่ใช่คำวินิจฉัยที่ถูกต้องแน่นอน อาจเปลี่ยนแปลงได้ตามข้อเท็จจริง โปรดส่งให้ผู้เชี่ยวชาญด้านทรัพย์สินทางปัญญาตรวจสอบอีกครั้งก่อนดำเนินการจริง", en: "This result is a <strong>Preliminary Analysis only, with no legal effect</strong>, and is not a definitive determination — it may change depending on the facts. Please have it checked again by a qualified intellectual property professional before taking real action." },
+    printBtn: { th: "พิมพ์ / บันทึกเป็น PDF", en: "Print / Save as PDF" },
+    copyBtn: { th: "คัดลอกสรุปผล", en: "Copy summary" },
+    copiedMsg: { th: "คัดลอกสรุปผลแล้ว", en: "Summary copied to clipboard" },
+    disagreeBtn: { th: "ผลนี้ดูไม่ถูกต้อง?", en: "This result looks wrong?" },
+    disagreePrompt: { th: "บอกเราหน่อยว่าทำไมผลนี้ดูไม่ถูกต้อง (ไม่บังคับ กดตกลงเพื่อส่ง)", en: "Tell us why this result looks wrong (optional — press OK to send)" },
+    disagreeThanks: { th: "ขอบคุณสำหรับความเห็น ทีมงานจะนำไปตรวจสอบ", en: "Thanks for the feedback — we will review it" },
+    addToProfileBtn: { th: "➕ เก็บผลนี้ไว้ แล้วตรวจสอบมุมอื่น", en: "➕ Save this result, check another angle" },
+    myProfileBtn: { th: "โปรไฟล์ของฉัน", en: "My profile" },
+    profileTitle: { th: "ผลทรัพย์สินทางปัญญาที่ตรวจสอบไว้สำหรับผลงานนี้", en: "IP results saved for this work" },
+    profileDesc: { th: "ผลงานชิ้นเดียวมักเข้าข่ายทรัพย์สินทางปัญญาได้หลายประเภทพร้อมกัน รายการด้านล่างคือทุกผลลัพธ์ที่คุณตรวจสอบไว้ในรอบนี้ — ใช้ปุ่ม \"เก็บผลนี้ไว้ แล้วตรวจสอบมุมอื่น\" ที่หน้าผลลัพธ์เพื่อเพิ่มรายการ", en: "One piece of work often qualifies for several IP categories at once. Below is everything you have checked and saved this round — use \"Save this result, check another angle\" on a result screen to add more." },
+    profileEmpty: { th: "ยังไม่มีผลลัพธ์ที่เก็บไว้ — ทำแบบประเมินแล้วกด \"เก็บผลนี้ไว้ แล้วตรวจสอบมุมอื่น\" ที่หน้าผลลัพธ์", en: "Nothing saved yet — complete the assessment, then use \"Save this result, check another angle\" on the result screen." },
+    profileBack: { th: "กลับไปที่แบบประเมิน", en: "Back to the assessment" },
+    clearProfileBtn: { th: "ล้างรายการทั้งหมด", en: "Clear all" },
+    removeItemBtn: { th: "นำออก", en: "Remove" },
+    progressLabel: { th: "ความคืบหน้าโดยประมาณ", en: "Approximate progress" },
+    footer: { th: "เครื่องมือนี้เป็นแนวทางเบื้องต้นเพื่อช่วยจัดหมวดหมู่เท่านั้น ไม่ถือเป็นคำแนะนำทางกฎหมาย ผลงานหนึ่งชิ้นมักเข้าข่ายทรัพย์สินทางปัญญาได้มากกว่าหนึ่งประเภทพร้อมกัน โปรดอ่านหัวข้อ \"จุดที่ควรตรวจสอบเพิ่มเติม\" ในผลลัพธ์ประกอบเสมอ และกรณีมีมูลค่าสูงหรือซับซ้อน ควรปรึกษากรมทรัพย์สินทางปัญญา กระทรวงพาณิชย์ หรือทนายความผู้เชี่ยวชาญก่อนตัดสินใจยื่นคำขอ อ้างอิงกฎหมายไทยเป็นหลัก หากผลงานหรือธุรกิจของคุณอยู่นอกประเทศไทย กฎหมายและขั้นตอนของประเทศนั้นอาจแตกต่างออกไป", en: "This tool is a preliminary guide to help categorize your work only and is not legal advice. One piece of work often qualifies for more than one IP category at once — always read the \"Also worth checking\" section in your result. For high-value or complex matters, consult Thailand's Department of Intellectual Property, Ministry of Commerce, or a qualified attorney before filing. This tool is based on Thai law; if your work or business is outside Thailand, the applicable law and procedure may differ." },
+    dataNotice: { th: "การเก็บข้อมูลการใช้งาน: เว็บไซต์นี้อาจบันทึกสถิติการใช้งานแบบไม่ระบุตัวตน ได้แก่ (1) คำถามที่แสดงและเวลาที่ใช้ตอบแต่ละข้อ (2) ตัวเลือกที่กด (3) การกดย้อนกลับหรือกดดูตัวอย่างเพิ่มเติม (4) ประเภทผลลัพธ์ที่ได้รับ ทั้งหมดผูกกับรหัสเซสชันแบบสุ่มที่สร้างใหม่ทุกครั้งที่เข้าใช้งาน — ไม่มีการเก็บชื่อ อีเมล หมายเลขติดต่อ ที่อยู่ IP หรือข้อมูลระบุตัวตนอื่นใด วัตถุประสงค์คือนำไปวิเคราะห์ว่าคำถามข้อใดเข้าใจยากหรือใช้เวลานานผิดปกติ เพื่อปรับปรุงความชัดเจนของคำถามในเวอร์ชันถัดไปเท่านั้น หากเปิดใช้งานแบบออฟไลน์อย่างสมบูรณ์ ข้อมูลจะไม่ถูกส่งออกไปนอกเครื่องเลย", en: "Usage data notice: this site may record anonymized usage statistics, including (1) which questions were shown and how long each took to answer, (2) which option was selected, (3) use of the back button or the \"see more examples\" toggle, (4) the resulting IP category. All of this is tied to a random session ID generated fresh each visit — no name, email, phone number, IP address, or other identifying information is ever collected. The sole purpose is to identify which questions are confusing or unusually slow to answer, so wording can be improved in future versions. If used fully offline, no data ever leaves the device." }
+  };
+
+  var currentLang = ((navigator.language || navigator.userLanguage || "th").toLowerCase().indexOf("th") === 0) ? "th" : "en";
+
+  function L(field) { return field && (field[currentLang] != null ? field[currentLang] : field.th); }
+
+  /* ================= Tree ================= */
+  var TREE = {
+    start: {
+      q: { th: "สิ่งที่คุณต้องการตรวจสอบ เป็นชื่อ สัญลักษณ์ โลโก้ สโลแกน หรือสิ่งที่ใช้บ่งบอกที่มาของสินค้า บริการ หรือกิจการของคุณหรือไม่", en: "Is what you want to check a name, symbol, logo, slogan, or other sign used to indicate the origin of your goods, services, or business?" },
+      examples: { th: ["ชื่อแบรนด์สินค้าที่คุณตั้งขึ้นเอง เช่น ชื่อยี่ห้อรองเท้า", "โลโก้ร้านกาแฟของคุณ", "สโลแกนโฆษณาสั้น ๆ ที่ใช้ประจำ", "ชื่อสินค้าที่บ่งบอกแหล่งภูมิศาสตร์ เช่น ข้าวหอมมะลิทุ่งกุลาร้องไห้"], en: ["A brand name you created yourself, e.g. a shoe brand name", "Your coffee shop logo", "A short recurring advertising slogan", "A product name indicating a geographical origin, e.g. Thung Kula Rong-Hai rice"] },
+      options: [
+        { label: { th: "ใช่", en: "Yes" }, next: "q_origin_check" },
+        { label: { th: "ไม่ใช่", en: "No" }, next: "q_expression" }
+      ]
+    },
+    q_origin_check: {
+      q: { th: "ชื่อหรือสัญลักษณ์นี้ บ่งบอกแหล่งภูมิศาสตร์เฉพาะ ซึ่งคุณภาพ ชื่อเสียง หรือคุณลักษณะของสินค้าเป็นผลมาจากแหล่งนั้นโดยเฉพาะหรือไม่", en: "Does this name or symbol indicate a specific geographical origin, where the product quality, reputation, or characteristics result specifically from that origin?" },
+      hint: { th: "หากใช่ กฎหมายไทยจัดเป็นสิ่งบ่งชี้ทางภูมิศาสตร์ (GI) ซึ่งเป็นสิทธิร่วมของกลุ่มผู้ผลิตในพื้นที่ และห้ามนำไปจดทะเบียนเป็นเครื่องหมายการค้าของผู้ผลิตรายใดรายหนึ่งโดยเฉพาะ", en: "If yes, Thai law classifies this as a Geographical Indication (GI) — a shared right of producers in that area — and it cannot be registered as the exclusive trademark of any single producer." },
+      examples: { th: ["ข้าวหอมมะลิทุ่งกุลาร้องไห้", "ส้มโอนครชัยศรี"], en: ["Thung Kula Rong-Hai Hom Mali rice (a registered Thai GI)", "Nakhon Chai Si pomelo (a registered Thai GI)"] },
+      options: [
+        { label: { th: "ใช่ บ่งบอกแหล่งภูมิศาสตร์โดยเฉพาะ", en: "Yes, it specifically indicates a geographical origin" }, next: "result:gi" },
+        { label: { th: "ไม่ใช่ เป็นชื่อ/สัญลักษณ์ของแบรนด์หรือกิจการทั่วไป", en: "No, it is a general brand or business name/symbol" }, next: "q_mark_type" }
+      ]
+    },
+    q_mark_type: {
+      q: { th: "เครื่องหมายหรือชื่อนี้ ตรงกับลักษณะใดมากที่สุด", en: "Which of these best matches this mark or name?" },
+      options: [
+        { label: { th: "ติดบนตัวสินค้าหรือบรรจุภัณฑ์ เพื่อแยกแยะสินค้า", en: "Placed on a product or its packaging to distinguish goods" }, next: "result:trademark_goods" },
+        { label: { th: "ใช้แยกแยะการให้บริการ เช่น ร้านอาหาร โรงแรม บริษัทที่ปรึกษา", en: "Used to distinguish a service, e.g. a restaurant, hotel, or consulting firm" }, next: "result:trademark_service" },
+        { label: { th: "ใช้รับรองคุณภาพ มาตรฐาน หรือแหล่งกำเนิดของผู้อื่น", en: "Used to certify the quality, standard, or origin of someone else's goods" }, next: "result:certification_mark" },
+        { label: { th: "ใช้ร่วมกันโดยสมาชิกสมาคม สหกรณ์ หรือกลุ่มบุคคล", en: "Used jointly by members of an association, cooperative, or group" }, next: "result:collective_mark" },
+        { label: { th: "เป็นชื่อกิจการ ไม่ใช่ชื่อสินค้าหรือบริการ", en: "It is a business name, not a product or service name" }, next: "result:trade_name" }
+      ]
+    },
+    q_expression: {
+      q: { th: "เป็นผลงานสร้างสรรค์ที่แสดงออกมาเป็นรูปธรรมแล้วหรือไม่ เช่น งานเขียน ภาพวาด เพลง ภาพถ่าย วิดีโอ โปรแกรมคอมพิวเตอร์ หรือการแสดง", en: "Is it a creative work already expressed in a tangible form, such as writing, a painting, a song, a photo, a video, computer software, or a performance?" },
+      hint: { th: "ลิขสิทธิ์คุ้มครองเฉพาะรูปแบบการแสดงออก ไม่คุ้มครองไอเดีย หลักการ หรือขั้นตอนวิธีที่ยังไม่ได้ถูกสร้างเป็นชิ้นงานจริง", en: "Copyright protects only the expression itself, not ideas, principles, or methods that have not yet been turned into an actual work." },
+      examples: { th: ["นิยายที่คุณเขียนจบแล้ว", "โค้ดโปรแกรมที่พัฒนาเสร็จแล้ว", "คลิปวิดีโอที่ถ่ายทำเสร็จแล้ว"], en: ["A novel you have finished writing", "Program code you have finished developing", "A video clip you have finished filming"] },
+      options: [
+        { label: { th: "ใช่", en: "Yes" }, next: "q_copyright_type" },
+        { label: { th: "ไม่ใช่", en: "No" }, next: "q_secret" }
+      ]
+    },
+    q_copyright_type: {
+      q: { th: "งานสร้างสรรค์นี้ตรงกับลักษณะใดมากที่สุด", en: "Which of these best matches this creative work?" },
+      options: [
+        { label: { th: "งานเขียน โปรแกรมคอมพิวเตอร์ บทเพลง ท่าเต้น ภาพวาด ประติมากรรม งานสถาปัตยกรรม", en: "Writing, computer software, music, choreography, painting, sculpture, or architecture" }, next: "result:literary_general" },
+        { label: { th: "ภาพถ่าย", en: "A photograph" }, next: "result:photograph" },
+        { label: { th: "งานออกแบบที่นำศิลปะไปใช้กับสินค้าอุตสาหกรรม เช่น ลวดลายสิ่งทอ รูปทรงเฟอร์นิเจอร์", en: "A design applying art to an industrial product, e.g. a textile pattern or furniture shape" }, next: "result:applied_art" },
+        { label: { th: "วิดีโอ ภาพยนตร์ เพลงที่บันทึกเสียงแล้ว หรือรายการที่แพร่ภาพ/แพร่เสียง", en: "Video, film, a recorded song, or a broadcast programme" }, next: "result:audiovisual_group" },
+        { label: { th: "เป็นการแสดงของนักแสดง นักดนตรี นักร้อง หรือนักเต้น", en: "A performance by an actor, musician, singer, or dancer" }, next: "result:performer_right" }
+      ]
+    },
+    q_secret: {
+      q: { th: "เป็นข้อมูลทางธุรกิจหรือทางเทคนิค เช่น สูตร กรรมวิธีการผลิต หรือรายชื่อลูกค้า ที่มีมูลค่าเพราะไม่เป็นที่รู้ทั่วไป และคุณเก็บเป็นความลับอย่างจริงจังหรือไม่", en: "Is it business or technical information, such as a formula, a manufacturing process, or a customer list, that has value because it is not generally known, and that you actively keep confidential?" },
+      examples: { th: ["สูตรอาหารเฉพาะของร้านที่ไม่เคยเปิดเผย", "ขั้นตอนการผลิตภายในโรงงานที่พนักงานต้องเซ็น NDA"], en: ["A restaurant undisclosed proprietary recipe", "An internal factory production process that employees must sign an NDA to access"] },
+      options: [
+        { label: { th: "ใช่", en: "Yes" }, next: "result:trade_secret" },
+        { label: { th: "ไม่ใช่", en: "No" }, next: "q_tech_or_design" }
+      ]
+    },
+    q_tech_or_design: {
+      q: { th: "เป็นสิ่งประดิษฐ์ อุปกรณ์ กลไก กรรมวิธีการผลิต หรือการออกแบบรูปลักษณ์ภายนอกของผลิตภัณฑ์หรือไม่", en: "Is it an invention, device, mechanism, manufacturing process, or the external design appearance of a product?" },
+      examples: { th: ["อุปกรณ์กลไกใหม่ที่คุณออกแบบขึ้น", "วิธีการผลิตที่ประหยัดพลังงานกว่าเดิม", "ขวดที่มีรูปทรงแปลกตาไม่เหมือนใคร", "ลายกราฟิกใหม่บนเสื้อผ้า"], en: ["A new mechanical device you designed", "A more energy-efficient manufacturing method", "A bottle with a uniquely distinctive shape", "A new graphic pattern on clothing"] },
+      options: [
+        { label: { th: "ใช่", en: "Yes" }, next: "q_patent_exclusion" },
+        { label: { th: "ไม่ใช่", en: "No" }, next: "q_ic" }
+      ]
+    },
+    q_patent_exclusion: {
+      q: { th: "สิ่งที่คุณต้องการขอความคุ้มครอง เข้าข่ายลักษณะเหล่านี้หรือไม่ — การค้นพบตามธรรมชาติหรือทฤษฎีทางวิทยาศาสตร์, วิธีการทางคณิตศาสตร์, กฎเกณฑ์ทางธุรกิจหรือเกมส์, โปรแกรมคอมพิวเตอร์ล้วน ๆ ที่ไม่ผูกกับกระบวนการทางเทคนิค, วิธีวินิจฉัยหรือรักษาโรคในคนหรือสัตว์, หรือจุลชีพที่พบตามธรรมชาติ", en: "Does what you want to protect fall into any of these — a natural discovery or scientific theory, a mathematical method, a business method or game rule, computer software alone with no attached technical process, a method of diagnosing or treating humans or animals, or a microorganism found in nature?" },
+      hint: { th: "กฎหมายสิทธิบัตรไทยยกเว้นไม่ให้ความคุ้มครองแก่สิ่งเหล่านี้โดยเฉพาะ แม้จะมีความใหม่ก็ตาม", en: "Thai patent law specifically excludes these categories from protection, even if they are new." },
+      options: [
+        { label: { th: "ใช่ เข้าข่ายข้อยกเว้นข้างต้น", en: "Yes, it falls under one of these exclusions" }, next: "result:patent_excluded" },
+        { label: { th: "ไม่เข้าข่ายข้อยกเว้นใด ๆ", en: "No, none of these apply" }, next: "q_purpose" }
+      ]
+    },
+    q_purpose: {
+      q: { th: "จุดประสงค์หลักของสิ่งนี้คืออะไร", en: "What is its main purpose?" },
+      options: [
+        { label: { th: "เน้นความสวยงาม ลวดลาย หรือรูปลักษณ์ภายนอกของผลิตภัณฑ์ ไม่เกี่ยวกับการทำงาน", en: "Focused on the aesthetic appearance, pattern, or external look of the product, unrelated to function" }, next: "result:design_patent" },
+        { label: { th: "เน้นการแก้ปัญหาทางเทคนิค กลไก โครงสร้าง หรือกรรมวิธี", en: "Focused on solving a technical, mechanical, structural, or process problem" }, next: "q_disclosure" }
+      ]
+    },
+    q_disclosure: {
+      q: { th: "สิ่งประดิษฐ์นี้เคยถูกเปิดเผยต่อสาธารณะมาก่อนหรือไม่ เช่น ตีพิมพ์ แสดงในงานนิทรรศการ หรือวางขายแล้ว", en: "Has this invention already been disclosed to the public — for example, published, shown at an exhibition, or already sold?" },
+      options: [
+        { label: { th: "ยังไม่เคยเปิดเผย", en: "Not disclosed yet" }, next: "q_novelty" },
+        { label: { th: "เปิดเผยแล้วไม่เกิน 12 เดือน โดยตัวผู้ประดิษฐ์เอง", en: "Disclosed within the last 12 months, by the inventor personally" }, next: "q_novelty" },
+        { label: { th: "เปิดเผยเกิน 12 เดือนแล้ว หรือเปิดเผยโดยผู้อื่น", en: "Disclosed more than 12 months ago, or disclosed by someone else" }, next: "result:patent_novelty_lost" }
+      ]
+    },
+    q_novelty: {
+      q: { th: "สิ่งประดิษฐ์นี้ใหม่อย่างชัดเจน และมีขั้นการประดิษฐ์ที่สูงขึ้นอย่างเห็นได้ชัดจากเทคโนโลยีที่มีอยู่เดิม ไม่ใช่แค่การปรับปรุงเล็กน้อย", en: "Is the invention clearly new, with an inventive step that is clearly higher than existing technology, not just a minor improvement?" },
+      options: [
+        { label: { th: "ใช่", en: "Yes" }, next: "result:patent_invention" },
+        { label: { th: "เป็นการปรับปรุงเล็กน้อย", en: "It is a minor improvement" }, next: "result:petty_patent" }
+      ]
+    },
+    q_ic: {
+      q: { th: "เป็นแบบผังการจัดวางวงจรอิเล็กทรอนิกส์บนแผ่นวงจรรวมหรือเซมิคอนดักเตอร์ หรือไม่", en: "Is it the layout design of an electronic circuit on an integrated circuit or semiconductor chip?" },
+      options: [
+        { label: { th: "ใช่", en: "Yes" }, next: "result:ic_layout" },
+        { label: { th: "ไม่ใช่", en: "No" }, next: "q_plant" }
+      ]
+    },
+    q_plant: {
+      q: { th: "เกี่ยวข้องกับพันธุ์พืชหรือไม่", en: "Does it involve a plant variety?" },
+      options: [
+        { label: { th: "ใช่", en: "Yes" }, next: "q_plant_subtype" },
+        { label: { th: "ไม่ใช่", en: "No" }, next: "result:none" }
+      ]
+    },
+    q_plant_subtype: {
+      q: { th: "พันธุ์พืชนี้ตรงกับลักษณะใดมากที่สุด", en: "Which of these best describes this plant variety?" },
+      options: [
+        { label: { th: "เป็นพันธุ์ใหม่ที่ปรับปรุงขึ้นเอง และแตกต่างจากพันธุ์เดิมอย่างชัดเจน", en: "A new variety you bred yourself, clearly different from existing varieties" }, next: "result:new_variety" },
+        { label: { th: "เป็นพันธุ์พื้นเมืองที่มีเฉพาะในพื้นที่ใดพื้นที่หนึ่ง ดูแลโดยชุมชนท้องถิ่น", en: "A local domestic variety found only in one area, cared for by a local community" }, next: "result:local_domestic" },
+        { label: { th: "เป็นพันธุ์พื้นเมืองที่ใช้ประโยชน์ทั่วไปในประเทศ ไม่จำกัดพื้นที่", en: "A general domestic variety used nationwide, not confined to one area" }, next: "result:general_domestic" },
+        { label: { th: "เป็นพันธุ์พืชป่าตามธรรมชาติ ยังไม่เคยนำมาเพาะปลูก", en: "A wild plant variety in its natural state, never yet cultivated" }, next: "result:wild_variety" }
+      ]
+    },
+  };
+
+  /* ================= Roadmaps ================= */
+  var ROADMAPS = {
+    trademark: { th: ["ตรวจสอบเครื่องหมายที่จดทะเบียนไว้แล้วก่อนยื่น", "เตรียมเอกสารคำขอและตัวอย่างเครื่องหมาย", "ยื่นคำขอต่อกรมทรัพย์สินทางปัญญา (DIP)", "เจ้าหน้าที่ตรวจสอบรูปแบบและเนื้อหาคำขอ", "ประกาศโฆษณาคำขอ และช่วงเวลาคัดค้าน", "รับหนังสือสำคัญการจดทะเบียน"], en: ["Search existing registered marks before filing", "Prepare the application and a specimen of the mark", "File the application with the Department of Intellectual Property (DIP)", "Formality and substantive examination by an officer", "Publication of the application and the opposition period", "Registration certificate issued"] },
+    tradename: { th: ["ใช้ชื่อในทางการค้าอย่างสม่ำเสมอ", "เก็บหลักฐานการใช้ชื่อ เช่น ใบเสร็จ สัญญา ป้ายร้าน", "พิจารณาจดทะเบียนชื่อเดียวกันเป็นเครื่องหมายการค้าเพื่อความคุ้มครองที่ชัดเจนขึ้น"], en: ["Use the name continuously in the course of trade", "Keep evidence of use, e.g. receipts, contracts, signage", "Consider also registering the same name as a trademark for clearer protection"] },
+    copyright: { th: ["สิทธิเกิดขึ้นโดยอัตโนมัติทันทีที่สร้างสรรค์ผลงาน", "เก็บหลักฐานวันที่สร้างสรรค์ เช่น ไฟล์ต้นฉบับ ประวัติการแก้ไข", "แจ้งข้อมูลลิขสิทธิ์ต่อกรมทรัพย์สินทางปัญญา (ไม่บังคับ แต่ช่วยเป็นหลักฐาน)", "ใช้เครื่องหมาย © พร้อมชื่อผู้สร้างสรรค์และปีเมื่อเผยแพร่ผลงาน", "หากถูกละเมิด สามารถดำเนินการทางกฎหมายได้ทันทีโดยไม่ต้องรอการจดทะเบียน"], en: ["Right arises automatically the moment the work is created", "Keep evidence of the creation date, e.g. original files, edit history", "Optionally notify the Department of Intellectual Property as supporting evidence", "Use a © notice with the creator name and year when publishing", "If infringed, you can take legal action immediately without needing registration"] },
+    secret: { th: ["ระบุให้ชัดเจนว่าข้อมูลใดต้องการคุ้มครอง", "จัดมาตรการรักษาความลับ เช่น จำกัดสิทธิ์เข้าถึง เข้ารหัสไฟล์", "ทำสัญญาห้ามเปิดเผยข้อมูล (NDA) กับพนักงานและคู่ค้า", "ทบทวนและปรับปรุงมาตรการรักษาความลับอย่างสม่ำเสมอ"], en: ["Clearly identify which information needs protection", "Implement confidentiality measures, e.g. access controls, file encryption", "Sign non-disclosure agreements (NDAs) with employees and partners", "Review and update the confidentiality measures regularly"] },
+    patent: { th: ["ตรวจสอบงานที่มีอยู่ก่อน (prior art search)", "เตรียมคำขอ รายละเอียดการประดิษฐ์ และข้อถือสิทธิ", "ยื่นคำขอต่อกรมทรัพย์สินทางปัญญา", "เจ้าหน้าที่ตรวจสอบรูปแบบคำขอ และประกาศโฆษณา", "ยื่นคำขอให้ตรวจสอบการประดิษฐ์ภายในระยะเวลาที่กำหนด", "เจ้าหน้าที่ตรวจสอบเนื้อหา และตอบข้อโต้แย้งหากมี", "รับสิทธิบัตร"], en: ["Conduct a prior art search", "Prepare the application, invention description, and claims", "File the application with the Department of Intellectual Property", "Formality examination and publication by an officer", "Request substantive examination within the statutory deadline", "Substantive examination, respond to any objections raised", "Patent granted"] },
+    design: { th: ["ตรวจสอบงานออกแบบที่มีอยู่ก่อน", "เตรียมภาพแสดงแบบผลิตภัณฑ์ทุกมุมมองให้ชัดเจน", "ยื่นคำขอต่อกรมทรัพย์สินทางปัญญา", "เจ้าหน้าที่ตรวจสอบและประกาศโฆษณาคำขอ", "รับสิทธิบัตรการออกแบบผลิตภัณฑ์"], en: ["Search existing designs beforehand", "Prepare clear drawings of the product from every angle", "File the application with the Department of Intellectual Property", "Examination and publication of the application by an officer", "Design patent granted"] },
+    ic: { th: ["เตรียมเอกสารแสดงแบบผังภูมิของวงจรรวม", "ยื่นคำขอภายในระยะเวลาที่กฎหมายกำหนดหลังผลิตหรือเปิดเผยครั้งแรก", "เจ้าหน้าที่ตรวจสอบคำขอ", "รับหนังสือสำคัญการจดทะเบียน"], en: ["Prepare documents showing the IC layout design", "File within the statutory deadline after first commercial exploitation or disclosure", "Examination by an officer", "Registration certificate issued"] },
+    plant_new: { th: ["ทดสอบพันธุ์ตามหลักเกณฑ์ความใหม่ ความแตกต่าง ความสม่ำเสมอ และความคงตัว", "เตรียมข้อมูลพันธุ์และวิธีการปรับปรุงพันธุ์", "ยื่นคำขอต่อกรมวิชาการเกษตร", "ปลูกทดสอบเปรียบเทียบกับพันธุ์ที่มีอยู่", "รับหนังสือสำคัญคุ้มครองพันธุ์พืชใหม่"], en: ["Conduct DUS testing (Distinctness, Uniformity, Stability)", "Prepare variety data and breeding method information", "File the application with the Department of Agriculture", "Comparative field trials against existing varieties", "New plant variety protection certificate issued"] },
+    plant_domestic: { th: ["ขึ้นทะเบียนหรือขออนุญาตกับกรมวิชาการเกษตร", "ทำข้อตกลงแบ่งปันผลประโยชน์กับหน่วยงานรัฐหรือชุมชนที่เกี่ยวข้อง", "ปฏิบัติตามเงื่อนไขการใช้ประโยชน์และการอนุรักษ์อย่างต่อเนื่อง"], en: ["Register with, or obtain permission from, the Department of Agriculture", "Enter into a benefit-sharing agreement with the relevant authority or community", "Continue to comply with usage and conservation conditions"] },
+    gi: { th: ["รวมกลุ่มผู้ผลิตในพื้นที่แหล่งกำเนิด", "จัดทำคู่มือคุณภาพสินค้า (specification) ร่วมกัน", "ยื่นคำขอขึ้นทะเบียนต่อกรมทรัพย์สินทางปัญญา", "เจ้าหน้าที่ตรวจสอบเอกสารและลงพื้นที่ตรวจสอบจริง", "ประกาศขึ้นทะเบียนสิ่งบ่งชี้ทางภูมิศาสตร์"], en: ["Form a group of producers in the area of origin", "Jointly prepare a product quality specification", "File the registration application with the Department of Intellectual Property", "Document review and on-site verification by officers", "Geographical indication registered"] }
+  };
+
+  /* ================= Results ================= */
+  var RESULTS = {
+    trademark_goods: { title: { th: "เครื่องหมายการค้า", en: "Trademark (for Goods)" }, icon: "trademark", roadmap: "trademark",
+      desc: { th: "ใช้กับสัญลักษณ์ที่ติดบนตัวสินค้าหรือบรรจุภัณฑ์ เพื่อแยกแยะสินค้าของคุณจากสินค้าของผู้อื่นในท้องตลาด", en: "Used for a symbol placed on a product or its packaging to distinguish your goods from others in the market." },
+      law: { th: "พระราชบัญญัติเครื่องหมายการค้า พ.ศ. 2534", en: "Trademark Act B.E. 2534 (1991)" },
+      term: { th: "10 ปีนับจากวันจดทะเบียน ต่ออายุได้ครั้งละ 10 ปี ไม่จำกัดจำนวนครั้ง", en: "10 years from registration, renewable indefinitely in 10-year terms" },
+      advice: { th: ["ตรวจสอบก่อนว่าเครื่องหมายไม่ซ้ำหรือคล้ายกับที่จดทะเบียนไว้แล้วในจำพวกสินค้าเดียวกัน", "ยื่นคำขอจดทะเบียนต่อกรมทรัพย์สินทางปัญญา (DIP) กระทรวงพาณิชย์", "เริ่มใช้เครื่องหมายในทางการค้าอย่างสม่ำเสมอเพื่อรักษาสิทธิ"], en: ["Check beforehand that the mark is not identical or similar to one already registered in the same class of goods", "File the registration application with the Department of Intellectual Property (DIP), Ministry of Commerce", "Start using the mark continuously in trade to maintain the right"] },
+      overlap: { th: ["หากบรรจุภัณฑ์หรือรูปทรงสินค้ามีการออกแบบเฉพาะตัว อาจขอสิทธิบัตรการออกแบบผลิตภัณฑ์เพิ่มเติมได้", "หากโลโก้มีลักษณะทางศิลปะสูง อาจได้รับความคุ้มครองลิขสิทธิ์ในฐานะศิลปกรรมไปพร้อมกันโดยอัตโนมัติ"], en: ["If the packaging or product shape has a distinctive design, you may also seek a design patent", "If the logo has significant artistic character, it may automatically also enjoy copyright protection as an artistic work"] } },
+    trademark_service: { title: { th: "เครื่องหมายบริการ", en: "Service Mark" }, icon: "trademark", roadmap: "trademark",
+      desc: { th: "ใช้กับสัญลักษณ์ที่ใช้แยกแยะการให้บริการของคุณจากผู้ให้บริการรายอื่น เช่น เครื่องหมายของร้านอาหาร โรงแรม หรือบริษัทที่ปรึกษา", en: "Used for a symbol that distinguishes your services from other providers, e.g. a mark for a restaurant, hotel, or consulting firm." },
+      law: { th: "พระราชบัญญัติเครื่องหมายการค้า พ.ศ. 2534", en: "Trademark Act B.E. 2534 (1991)" },
+      term: { th: "10 ปีนับจากวันจดทะเบียน ต่ออายุได้ครั้งละ 10 ปี ไม่จำกัดจำนวนครั้ง", en: "10 years from registration, renewable indefinitely in 10-year terms" },
+      advice: { th: ["จัดจำพวกบริการให้ตรงตามประเภทกิจการที่ให้บริการจริง", "ยื่นคำขอจดทะเบียนต่อกรมทรัพย์สินทางปัญญา (DIP) กระทรวงพาณิชย์", "เก็บหลักฐานการใช้เครื่องหมายในการให้บริการอย่างต่อเนื่อง"], en: ["Classify the services accurately to match your actual business", "File the registration application with the DIP, Ministry of Commerce", "Keep evidence of continuous use of the mark in providing services"] },
+      overlap: { th: ["หากมีการออกแบบพื้นที่ให้บริการหรือสิ่งของประกอบที่มีเอกลักษณ์เฉพาะ อาจพิจารณาความคุ้มครองด้านอื่นเพิ่มเติม เช่น ลิขสิทธิ์งานตกแต่ง"], en: ["If the service space or associated items have a distinctive design, consider additional protection such as copyright for the decor"] } },
+    certification_mark: { title: { th: "เครื่องหมายรับรอง", en: "Certification Mark" }, icon: "trademark", roadmap: "trademark",
+      desc: { th: "ใช้รับรองคุณภาพ วัตถุดิบ แหล่งกำเนิด หรือมาตรฐานของสินค้าหรือบริการของผู้อื่น เช่น เครื่องหมายมาตรฐาน หรือเครื่องหมายฮาลาล", en: "Used to certify the quality, material, origin, or standard of someone else's goods or services, e.g. a standards mark or a halal mark." },
+      law: { th: "พระราชบัญญัติเครื่องหมายการค้า พ.ศ. 2534 หมวดเครื่องหมายรับรอง", en: "Trademark Act B.E. 2534 (1991), certification mark provisions" },
+      term: { th: "10 ปีนับจากวันจดทะเบียน ต่ออายุได้ครั้งละ 10 ปี", en: "10 years from registration, renewable in 10-year terms" },
+      advice: { th: ["ผู้ขอจดทะเบียนต้องไม่ใช่ผู้ผลิตสินค้าที่ขอรับรองเอง เพื่อความเป็นกลาง", "ต้องกำหนดหลักเกณฑ์และมาตรฐานการรับรองแนบท้ายคำขออย่างชัดเจน", "ควบคุมและตรวจสอบผู้ใช้เครื่องหมายให้เป็นไปตามหลักเกณฑ์อย่างสม่ำเสมอ"], en: ["The applicant must not itself be the producer of the certified goods, to preserve neutrality", "Clear certification standards and criteria must be attached to the application", "Regularly monitor and audit users of the mark for compliance with the criteria"] }, overlap: { th: [], en: [] } },
+    collective_mark: { title: { th: "เครื่องหมายร่วม", en: "Collective Mark" }, icon: "trademark", roadmap: "trademark",
+      desc: { th: "ใช้โดยสมาชิกของสมาคม สหกรณ์ สหภาพ หรือกลุ่มบุคคล เพื่อแสดงว่าสินค้าหรือบริการมาจากสมาชิกในกลุ่มเดียวกัน", en: "Used by members of an association, cooperative, union, or group to show that goods or services come from members of the same group." },
+      law: { th: "พระราชบัญญัติเครื่องหมายการค้า พ.ศ. 2534 หมวดเครื่องหมายร่วม", en: "Trademark Act B.E. 2534 (1991), collective mark provisions" },
+      term: { th: "10 ปีนับจากวันจดทะเบียน ต่ออายุได้ครั้งละ 10 ปี", en: "10 years from registration, renewable in 10-year terms" },
+      advice: { th: ["ผู้ขอต้องเป็นนิติบุคคลประเภทสมาคม สหกรณ์ สหภาพ หรือกลุ่มบุคคลที่กฎหมายรับรอง", "ต้องมีระเบียบการใช้เครื่องหมายร่วมกันในกลุ่มสมาชิกแนบท้ายคำขอ"], en: ["The applicant must be a legal entity such as an association, cooperative, union, or a legally recognized group", "Rules governing joint use of the mark among members must be attached to the application"] }, overlap: { th: [], en: [] } },
+    trade_name: { title: { th: "ชื่อทางการค้า", en: "Trade Name" }, icon: "trademark", roadmap: "tradename",
+      desc: { th: "ชื่อที่ใช้เรียกกิจการหรือธุรกิจ ไม่ใช่ตัวสินค้าหรือบริการ ได้รับความคุ้มครองจากการใช้จริงในทางการค้า", en: "The name used to refer to a business or enterprise, not the goods or services themselves; protected through actual use in trade." },
+      law: { th: "หลักกฎหมายทั่วไปว่าด้วยละเมิดและการแข่งขันทางการค้าที่ไม่เป็นธรรม ประกอบอนุสัญญากรุงปารีส", en: "General tort and unfair competition law principles, together with the Paris Convention" },
+      term: { th: "ไม่มีกำหนดเวลา คุ้มครองตราบเท่าที่ยังมีการใช้ชื่อในทางการค้าอย่างต่อเนื่อง", en: "No fixed term; protected for as long as the name continues to be used in trade" },
+      advice: { th: ["ไม่ต้องยื่นจดทะเบียนเพื่อให้เกิดสิทธิ แต่ควรเก็บหลักฐานการใช้ชื่ออย่างต่อเนื่องไว้เสมอ", "ควรพิจารณาจดทะเบียนชื่อเดียวกันเป็นเครื่องหมายการค้าหรือบริการด้วย เพื่อความคุ้มครองที่ชัดเจนและบังคับใช้ได้ง่ายขึ้น"], en: ["No registration is required for the right to arise, but keep continuous evidence of use", "Consider also registering the same name as a trademark or service mark for clearer, more enforceable protection"] },
+      overlap: { th: ["หากใช้ชื่อเดียวกันติดบนสินค้าหรือในการให้บริการด้วย ควรพิจารณาจดทะเบียนเป็นเครื่องหมายการค้าหรือบริการควบคู่กัน"], en: ["If the same name is also placed on goods or used in providing services, consider registering it as a trademark or service mark as well"] } },
+
+    literary_general: { title: { th: "ลิขสิทธิ์ — งานทั่วไป", en: "Copyright — General Works" }, icon: "copyright", roadmap: "copyright",
+      desc: { th: "ครอบคลุมงานเขียน โปรแกรมคอมพิวเตอร์ บทเพลง ท่าเต้น ภาพวาด ประติมากรรม ภาพพิมพ์ และงานสถาปัตยกรรม", en: "Covers writing, computer software, music, choreography, painting, sculpture, prints, and architectural works." },
+      law: { th: "พระราชบัญญัติลิขสิทธิ์ พ.ศ. 2537", en: "Copyright Act B.E. 2537 (1994)" },
+      term: { th: "ตลอดอายุผู้สร้างสรรค์ บวกอีก 50 ปีหลังเสียชีวิต (หากผู้สร้างสรรค์เป็นนิติบุคคลหรือไม่ปรากฏชื่อผู้สร้างสรรค์ ใช้ 50 ปีนับแต่สร้างสรรค์แทน)", en: "Life of the creator plus 50 years after death (if the creator is a legal entity or unnamed, 50 years from creation instead)" },
+      advice: { th: ["สิทธิเกิดขึ้นโดยอัตโนมัติทันทีที่สร้างสรรค์ผลงาน ไม่ต้องยื่นจดทะเบียน", "แนะนำแจ้งข้อมูลลิขสิทธิ์ต่อกรมทรัพย์สินทางปัญญาไว้เป็นหลักฐานวันที่สร้างสรรค์", "งานต้องเกิดจากความคิดริเริ่มของตนเอง ไม่ใช่การคัดลอกผลงานผู้อื่น"], en: ["The right arises automatically the moment the work is created; no registration required", "It is advisable to notify the DIP of copyright details as evidence of the creation date", "The work must originate from your own effort, not be copied from someone else"] },
+      overlap: { th: ["หากเป็นโปรแกรมคอมพิวเตอร์ที่มีกระบวนการทางเทคนิคใหม่และแก้ปัญหาทางเทคนิค อาจพิจารณาสิทธิบัตรกระบวนการเพิ่มเติมได้ ส่วนตัวโค้ดเองยังคงได้รับความคุ้มครองลิขสิทธิ์เสมอ", "หากงานสถาปัตยกรรมมีรูปลักษณ์ที่นำไปใช้เป็นเครื่องหมายทางการค้าด้วย อาจพิจารณาจดทะเบียนเครื่องหมายการค้าเพิ่มเติม"], en: ["If the software involves a new technical process that solves a technical problem, a process patent may also be worth considering; the code itself always remains protected by copyright", "If an architectural work look is also used as a trademark, consider registering it as a trademark as well"] } },
+    photograph: { title: { th: "ลิขสิทธิ์ — งานภาพถ่าย", en: "Copyright — Photographic Work" }, icon: "copyright", roadmap: "copyright",
+      desc: { th: "ภาพถ่ายที่เกิดจากการสร้างสรรค์ของช่างภาพ กฎหมายกำหนดระยะเวลาคุ้มครองไว้เป็นการเฉพาะ สั้นกว่างานวรรณกรรมทั่วไป", en: "A photograph created by a photographer. The law sets a specific, shorter protection term than for general literary works." },
+      law: { th: "พระราชบัญญัติลิขสิทธิ์ พ.ศ. 2537 มาตรา 21", en: "Copyright Act B.E. 2537 (1994), Section 21" },
+      term: { th: "50 ปีนับแต่ได้สร้างสรรค์ขึ้น หรือนับแต่เผยแพร่ครั้งแรกหากเผยแพร่ภายใน 50 ปีหลังสร้างสรรค์", en: "50 years from creation, or from first publication if published within 50 years of creation" },
+      advice: { th: ["สิทธิเกิดขึ้นโดยอัตโนมัติ ไม่ต้องยื่นจดทะเบียน", "เก็บไฟล์ต้นฉบับและข้อมูลวันที่ถ่ายภาพไว้เป็นหลักฐานความเป็นเจ้าของ"], en: ["The right arises automatically; no registration required", "Keep the original file and shooting date as evidence of ownership"] },
+      overlap: { th: ["หากนำภาพถ่ายไปใช้เป็นส่วนหนึ่งของโลโก้หรือตราสินค้า อาจพิจารณาจดทะเบียนเครื่องหมายการค้าเพิ่มเติม"], en: ["If the photograph is used as part of a logo or brand, consider registering a trademark as well"] } },
+    applied_art: { title: { th: "ลิขสิทธิ์ — ศิลปประยุกต์", en: "Copyright — Applied Art" }, icon: "copyright", roadmap: "copyright",
+      desc: { th: "งานออกแบบที่นำศิลปะไปใช้กับสินค้าอุตสาหกรรม เช่น ลวดลายบนสิ่งทอ หรือรูปทรงเฟอร์นิเจอร์ที่มีคุณค่าทางศิลปะ กฎหมายกำหนดระยะเวลาคุ้มครองสั้นกว่างานศิลปกรรมทั่วไปอย่างชัดเจน", en: "A design applying art to an industrial product, e.g. a textile pattern or an artistically valuable furniture shape. The law sets a notably shorter term than general artistic works." },
+      law: { th: "พระราชบัญญัติลิขสิทธิ์ พ.ศ. 2537 มาตรา 22", en: "Copyright Act B.E. 2537 (1994), Section 22" },
+      term: { th: "25 ปีนับแต่ได้สร้างสรรค์ขึ้น หรือนับแต่เผยแพร่ครั้งแรกหากเผยแพร่ภายใน 25 ปีหลังสร้างสรรค์", en: "25 years from creation, or from first publication if published within 25 years of creation" },
+      advice: { th: ["สิทธิเกิดขึ้นโดยอัตโนมัติ ไม่ต้องยื่นจดทะเบียน", "หากต้องการความคุ้มครองที่แข็งแรงกว่าและตรวจสอบได้ชัดเจน ควรพิจารณาสิทธิบัตรการออกแบบผลิตภัณฑ์ควบคู่กัน"], en: ["The right arises automatically; no registration required", "For stronger, more clearly enforceable protection, consider also seeking a design patent"] },
+      overlap: { th: ["งานออกแบบชิ้นเดียวกันอาจขอสิทธิบัตรการออกแบบผลิตภัณฑ์ได้ด้วย หากยังไม่เคยเปิดเผยต่อสาธารณะก่อนยื่นคำขอ และให้ผลคุ้มครองที่หนักแน่นกว่าในระยะเวลา 10 ปี"], en: ["The same design may also qualify for a design patent if it has not yet been publicly disclosed before filing, giving 10 years of stronger protection"] } },
+    audiovisual_group: { title: { th: "ลิขสิทธิ์ — โสตทัศนวัสดุ ภาพยนตร์ และสิ่งบันทึกเสียง", en: "Copyright — Audiovisual, Film & Sound Recording" }, icon: "copyright", roadmap: "copyright",
+      desc: { th: "ครอบคลุมวิดีโอ ภาพยนตร์ เพลงที่บันทึกเสียงแล้ว และรายการที่แพร่ภาพหรือแพร่เสียง แต่ละประเภทนับอายุความคุ้มครองจากวันสร้างสรรค์หรือเผยแพร่ ไม่ใช่จากอายุผู้สร้างสรรค์", en: "Covers video, film, recorded songs, and broadcast programmes. Each counts its term from the date of creation or publication, not from the creator's lifespan." },
+      law: { th: "พระราชบัญญัติลิขสิทธิ์ พ.ศ. 2537 มาตรา 21", en: "Copyright Act B.E. 2537 (1994), Section 21" },
+      term: { th: "50 ปีนับแต่สร้างสรรค์ขึ้น หรือนับแต่เผยแพร่/แพร่ภาพแพร่เสียงครั้งแรกภายใน 50 ปีหลังสร้างสรรค์", en: "50 years from creation, or from first publication/broadcast if within 50 years of creation" },
+      advice: { th: ["สิทธิเกิดขึ้นโดยอัตโนมัติ ไม่ต้องยื่นจดทะเบียน", "หากมีการแสดงของนักแสดงหรือนักดนตรีร่วมอยู่ในงาน สิทธิของนักแสดงเป็นสิทธิแยกต่างหากที่ต้องพิจารณาเพิ่มเติม"], en: ["The right arises automatically; no registration required", "If performers or musicians appear in the work, their performer's right is a separate right that needs separate consideration"] },
+      overlap: { th: ["นักแสดง นักดนตรี หรือนักร้องที่ปรากฏในงาน มีสิทธิของนักแสดงแยกต่างหากจากลิขสิทธิ์ในตัวงาน", "หากมีดนตรีประกอบหรือบทประพันธ์ที่แต่งขึ้นใหม่ งานเหล่านั้นมีลิขสิทธิ์ของตนเองแยกจากตัวภาพยนตร์หรือสิ่งบันทึกเสียง"], en: ["Performers, musicians, or singers appearing in the work hold a performer's right separate from copyright in the work itself", "Newly composed music or scripts used in the work carry their own separate copyright from the film or sound recording"] } },
+    performer_right: { title: { th: "สิทธิของนักแสดง", en: "Performer's Right (Neighbouring Right)" }, icon: "performer", roadmap: "copyright",
+      desc: { th: "คุ้มครองการแสดงของนักแสดง นักดนตรี นักร้อง หรือนักเต้น แยกต่างหากจากลิขสิทธิ์ในตัวบทประพันธ์หรือดนตรีกรรมที่นำมาแสดง", en: "Protects the performance of an actor, musician, singer, or dancer, separately from copyright in the script or music being performed." },
+      law: { th: "พระราชบัญญัติลิขสิทธิ์ พ.ศ. 2537 หมวดสิทธิของนักแสดง", en: "Copyright Act B.E. 2537 (1994), performer's rights provisions" },
+      term: { th: "50 ปีนับแต่วันที่มีการแสดง", en: "50 years from the date of the performance" },
+      advice: { th: ["สิทธิเกิดขึ้นโดยอัตโนมัติเมื่อมีการแสดง ไม่ต้องยื่นจดทะเบียน", "หากการแสดงถูกบันทึกเป็นวิดีโอหรือเสียง ควรตกลงเรื่องการอนุญาตใช้สิทธิกับผู้บันทึกให้ชัดเจนตั้งแต่ต้น"], en: ["The right arises automatically upon performance; no registration required", "If the performance is recorded, agree on licensing terms with the recording party clearly from the start"] },
+      overlap: { th: ["บทเพลงหรือบทประพันธ์ที่นำมาแสดงมีลิขสิทธิ์ของผู้ประพันธ์แยกต่างหาก ต้องขออนุญาตก่อนนำไปแสดงหรือบันทึกเผยแพร่"], en: ["The song or script being performed has its own separate copyright held by its author; permission is needed before performing or recording it for release"] } },
+
+    trade_secret: { title: { th: "ความลับทางการค้า", en: "Trade Secret" }, icon: "trade_secret", roadmap: "secret",
+      desc: { th: "คุ้มครองข้อมูลทางธุรกิจหรือทางเทคนิคที่มีมูลค่าทางการค้าเพราะไม่เป็นที่รู้จักทั่วไป และเจ้าของได้ใช้มาตรการรักษาความลับตามสมควร", en: "Protects business or technical information that has commercial value because it is not generally known, where the owner has taken reasonable measures to keep it confidential." },
+      law: { th: "พระราชบัญญัติความลับทางการค้า พ.ศ. 2545", en: "Trade Secrets Act B.E. 2545 (2002)" },
+      term: { th: "ไม่มีกำหนดเวลาสิ้นสุด คุ้มครองตราบเท่าที่ยังคงเป็นความลับอยู่", en: "No fixed end date; protected for as long as it remains secret" },
+      advice: { th: ["ไม่ต้องยื่นจดทะเบียน แต่ต้องพิสูจน์ได้ว่ามีมาตรการรักษาความลับจริง", "จัดทำสัญญาห้ามเปิดเผยข้อมูล (NDA) กับพนักงานและคู่ค้าที่เกี่ยวข้อง", "จำกัดการเข้าถึงข้อมูลเฉพาะผู้ที่จำเป็นต้องรู้เท่านั้น"], en: ["No registration required, but you must be able to prove real confidentiality measures were taken", "Put NDAs in place with relevant employees and business partners", "Restrict access to the information to only those who need to know"] },
+      overlap: { th: ["หากภายหลังต้องการเปิดเผยข้อมูลทางเทคนิคต่อสาธารณะ ควรพิจารณายื่นขอสิทธิบัตรก่อนเปิดเผย เพราะการเปิดเผยจะทำให้ขอสิทธิบัตรไม่ได้อีกต่อไป"], en: ["If you later want to disclose the technical information publicly, consider filing for a patent before disclosure, since disclosure will make patenting impossible afterwards"] } },
+
+    patent_excluded: { title: { th: "ไม่เข้าข่ายรับสิทธิบัตร", en: "Statutorily Excluded from Patent Protection" }, icon: "excluded", warn: true, roadmap: null,
+      desc: { th: "กฎหมายสิทธิบัตรไทยยกเว้นไม่ให้ความคุ้มครองแก่การค้นพบตามธรรมชาติ ทฤษฎีทางวิทยาศาสตร์ วิธีการทางคณิตศาสตร์ กฎเกณฑ์ทางธุรกิจหรือเกมส์ โปรแกรมคอมพิวเตอร์ล้วน ๆ ที่ไม่ผูกกับกระบวนการทางเทคนิค วิธีวินิจฉัยหรือรักษาโรคในคนหรือสัตว์ และจุลชีพหรือส่วนประกอบของจุลชีพที่พบตามธรรมชาติ", en: "Thai patent law excludes from protection: natural discoveries, scientific theories, mathematical methods, business methods or game rules, computer software alone with no attached technical process, methods of diagnosing or treating humans or animals, and microorganisms or their parts found in nature." },
+      law: { th: "พระราชบัญญัติสิทธิบัตร พ.ศ. 2522 มาตรา 9", en: "Patent Act B.E. 2522 (1979), Section 9" }, term: { th: "-", en: "-" },
+      advice: { th: ["หากเป็นโปรแกรมคอมพิวเตอร์ ตัวโค้ดยังคงได้รับความคุ้มครองลิขสิทธิ์โดยอัตโนมัติอยู่แล้ว", "หากเป็นกรรมวิธีหรือข้อมูลที่ยังไม่เปิดเผยต่อสาธารณะ อาจพิจารณาคุ้มครองเป็นความลับทางการค้าแทน", "ลองทบทวนว่ามีองค์ประกอบทางเทคนิคที่นำไปแก้ปัญหาเชิงกายภาพหรืออุตสาหกรรมร่วมอยู่ด้วยหรือไม่ เพราะส่วนนั้นอาจยังขอสิทธิบัตรได้"], en: ["If it is computer software, the code itself is already automatically protected by copyright", "If it is an undisclosed process or data, consider protecting it as a trade secret instead", "Reconsider whether there is a technical element solving a physical or industrial problem attached, as that part may still be patentable"] }, overlap: { th: [], en: [] } },
+    patent_novelty_lost: { title: { th: "ความใหม่อาจเสียไปแล้ว", en: "Novelty Likely Destroyed by Prior Disclosure" }, icon: "excluded", warn: true, roadmap: null,
+      desc: { th: "การเปิดเผยสิ่งประดิษฐ์ต่อสาธารณะเกิน 12 เดือน หรือเปิดเผยโดยบุคคลอื่นที่ไม่ใช่ผู้ประดิษฐ์เอง มักทำให้สิ่งประดิษฐ์ไม่ถือว่าใหม่อีกต่อไปตามกฎหมายสิทธิบัตร แม้จะมีขั้นการประดิษฐ์สูงเพียงใดก็ตาม", en: "Disclosing an invention publicly more than 12 months ago, or disclosure by someone other than the inventor, usually means the invention is no longer considered new under patent law, regardless of how high the inventive step is." },
+      law: { th: "พระราชบัญญัติสิทธิบัตร พ.ศ. 2522 มาตรา 6", en: "Patent Act B.E. 2522 (1979), Section 6" }, term: { th: "-", en: "-" },
+      advice: { th: ["ตรวจสอบวันที่เปิดเผยและช่องทางที่ใช้สิทธิยกเว้นความใหม่ (ระยะเวลาผ่อนผัน 12 เดือน) อย่างละเอียดกับผู้เชี่ยวชาญก่อนสรุปผล", "หากมีส่วนของสิ่งประดิษฐ์ที่ยังไม่เคยเปิดเผย อาจยังยื่นขอสิทธิบัตรเฉพาะส่วนนั้นได้", "พิจารณาคุ้มครองด้วยความลับทางการค้าสำหรับรายละเอียดส่วนที่ยังไม่เปิดเผยต่อไป"], en: ["Have a professional carefully verify the disclosure date and channel against the 12-month grace period exception before concluding anything", "If part of the invention has never been disclosed, that part may still be patentable", "Consider protecting the undisclosed details as a trade secret going forward"] }, overlap: { th: [], en: [] } },
+    patent_invention: { title: { th: "สิทธิบัตรการประดิษฐ์", en: "Invention Patent" }, icon: "patent_invention", roadmap: "patent",
+      desc: { th: "คุ้มครองสิ่งประดิษฐ์ใหม่ที่มีขั้นการประดิษฐ์สูงขึ้น และสามารถประยุกต์ใช้ในทางอุตสาหกรรมได้", en: "Protects a new invention with an elevated inventive step that can be applied industrially." },
+      law: { th: "พระราชบัญญัติสิทธิบัตร พ.ศ. 2522", en: "Patent Act B.E. 2522 (1979)" }, term: { th: "20 ปีนับจากวันยื่นคำขอ ไม่ต่ออายุ", en: "20 years from the filing date, not renewable" },
+      advice: { th: ["ต้องยื่นคำขอก่อนเปิดเผยสิ่งประดิษฐ์ต่อสาธารณะ มิฉะนั้นอาจเสียความใหม่", "ตรวจสอบงานที่มีอยู่ก่อน (prior art) เพื่อประเมินความใหม่และขั้นการประดิษฐ์อย่างละเอียด", "ยื่นคำขอต่อกรมทรัพย์สินทางปัญญา และเตรียมรายละเอียดการประดิษฐ์ให้ครบถ้วน"], en: ["File before publicly disclosing the invention, or novelty may be lost", "Conduct a careful prior art search to assess novelty and inventive step", "File with the Department of Intellectual Property with complete invention details"] },
+      overlap: { th: ["ระหว่างขั้นตอนการยื่นและพิจารณาคำขอซึ่งใช้เวลานาน ควรคุ้มครองรายละเอียดทางเทคนิคที่ยังไม่เปิดเผยไว้เป็นความลับทางการค้าคู่ขนาน", "ชื่อทางการค้าของผลิตภัณฑ์ที่ใช้สิ่งประดิษฐ์นี้ควรพิจารณาจดทะเบียนเป็นเครื่องหมายการค้าแยกต่างหาก"], en: ["While the lengthy filing and examination process is ongoing, protect any still-undisclosed technical details as a trade secret in parallel", "The brand name of a product using this invention should be considered for separate trademark registration"] } },
+    petty_patent: { title: { th: "อนุสิทธิบัตร", en: "Petty Patent" }, icon: "petty_patent", roadmap: "patent",
+      desc: { th: "คุ้มครองสิ่งประดิษฐ์ที่ใหม่ แต่เป็นการปรับปรุงหรือพัฒนาต่อยอดในระดับที่ไม่สูงมากเมื่อเทียบกับสิทธิบัตรการประดิษฐ์ กระบวนการตรวจสอบและออกความคุ้มครองรวดเร็วกว่า", en: "Protects a new invention that is a smaller-scale improvement compared to an invention patent. Examination and grant is faster." },
+      law: { th: "พระราชบัญญัติสิทธิบัตร พ.ศ. 2522 (หมวดอนุสิทธิบัตร)", en: "Patent Act B.E. 2522 (1979), petty patent provisions" }, term: { th: "6 ปีนับจากวันจดทะเบียน ต่ออายุได้ 2 ครั้ง ครั้งละ 2 ปี รวมสูงสุด 10 ปี", en: "6 years from registration, renewable twice for 2 years each, up to a maximum of 10 years" },
+      advice: { th: ["เหมาะกับสิ่งประดิษฐ์ที่เป็นการปรับปรุงจากของเดิม ไม่จำเป็นต้องมีขั้นการประดิษฐ์สูง", "ยื่นคำขอต่อกรมทรัพย์สินทางปัญญา ใช้เวลาออกความคุ้มครองเร็วกว่าสิทธิบัตรทั่วไป", "ภายหลังสามารถยื่นเปลี่ยนเป็นสิทธิบัตรการประดิษฐ์ได้ภายในระยะเวลาที่กฎหมายกำหนด หากคุณสมบัติครบ"], en: ["Suitable for inventions that improve on existing ones without needing a high inventive step", "File with the Department of Intellectual Property; grant is faster than a full patent", "Can later be converted to an invention patent within the statutory deadline if it qualifies"] },
+      overlap: { th: ["ชื่อทางการค้าของผลิตภัณฑ์ที่ใช้สิ่งประดิษฐ์นี้ควรพิจารณาจดทะเบียนเป็นเครื่องหมายการค้าแยกต่างหาก"], en: ["The brand name of a product using this invention should be considered for separate trademark registration"] } },
+    design_patent: { title: { th: "สิทธิบัตรการออกแบบผลิตภัณฑ์", en: "Design Patent" }, icon: "design_patent", roadmap: "design",
+      desc: { th: "คุ้มครองรูปร่าง ลักษณะภายนอก ลวดลาย หรือองค์ประกอบของสีที่ปรากฏบนผลิตภัณฑ์ โดยไม่คุ้มครองการทำงานหรือฟังก์ชันของผลิตภัณฑ์", en: "Protects the shape, external appearance, pattern, or colour composition of a product, not its function or how it works." },
+      law: { th: "พระราชบัญญัติสิทธิบัตร พ.ศ. 2522 (หมวดการออกแบบผลิตภัณฑ์)", en: "Patent Act B.E. 2522 (1979), design patent provisions" }, term: { th: "10 ปีนับจากวันยื่นคำขอ", en: "10 years from the filing date" },
+      advice: { th: ["ต้องเป็นการออกแบบใหม่ ยังไม่เคยเปิดเผยต่อสาธารณะมาก่อนยื่นคำขอ", "เตรียมภาพหรือแบบแสดงรูปลักษณ์ผลิตภัณฑ์ทุกด้านให้ชัดเจนสำหรับยื่นคำขอ", "หากผลิตภัณฑ์มีทั้งฟังก์ชันใหม่และการออกแบบใหม่ อาจพิจารณายื่นทั้งสิทธิบัตรการประดิษฐ์และการออกแบบคู่กัน"], en: ["Must be a new design, not publicly disclosed before filing", "Prepare clear drawings or images showing the product from every angle", "If the product has both a new function and a new design, consider filing both an invention and a design patent"] },
+      overlap: { th: ["รูปลักษณ์เดียวกันอาจได้รับความคุ้มครองลิขสิทธิ์ในฐานะศิลปประยุกต์โดยอัตโนมัติควบคู่ไปด้วย แม้จะมีระยะเวลาคุ้มครองสั้นกว่า", "หากรูปทรงนั้นถูกใช้เป็นสัญลักษณ์บ่งบอกแบรนด์อย่างต่อเนื่องจนผู้บริโภคจดจำได้ อาจขอจดทะเบียนเป็นเครื่องหมายการค้าสามมิติเพิ่มเติมได้ในระยะยาว"], en: ["The same appearance may automatically also enjoy copyright protection as applied art, though with a shorter term", "If the shape is used consistently as a brand identifier that consumers come to recognise, a three-dimensional trademark may be registrable in the long run"] } },
+    ic_layout: { title: { th: "แบบผังภูมิของวงจรรวม", en: "IC Layout Design" }, icon: "ic_layout", roadmap: "ic",
+      desc: { th: "คุ้มครองแบบผังการจัดวางวงจรอิเล็กทรอนิกส์บนวงจรรวมหรือเซมิคอนดักเตอร์ ที่เกิดจากความคิดสร้างสรรค์ของผู้ออกแบบเอง", en: "Protects the layout design of an electronic circuit on an integrated circuit or semiconductor that results from the designer's own creativity." },
+      law: { th: "พระราชบัญญัติคุ้มครองแบบผังภูมิของวงจรรวม พ.ศ. 2543", en: "Integrated Circuit Layout Design Protection Act B.E. 2543 (2000)" }, term: { th: "10 ปีนับจากวันจดทะเบียน หรือวันที่มีการผลิตทางการค้าครั้งแรก แล้วแต่วันใดถึงก่อน", en: "10 years from registration, or from first commercial exploitation, whichever comes first" },
+      advice: { th: ["ต้องยื่นคำขอภายในระยะเวลาที่กฎหมายกำหนดหลังจากมีการผลิตหรือเปิดเผยทางการค้าครั้งแรก", "แบบผังภูมิต้องเกิดจากความคิดสร้างสรรค์ของผู้ออกแบบเอง ไม่ใช่การคัดลอก", "ยื่นคำขอต่อกรมทรัพย์สินทางปัญญาพร้อมเอกสารแสดงแบบผังภูมิ"], en: ["Must file within the statutory deadline after first commercial production or disclosure", "The layout design must be the designer's own creative work, not copied", "File with the DIP together with documents showing the layout design"] },
+      overlap: { th: ["หากภายในวงจรมีกรรมวิธีการผลิตที่เป็นความลับ อาจคุ้มครองส่วนนั้นเป็นความลับทางการค้าเพิ่มเติมได้"], en: ["If the circuit involves a secret manufacturing process, that part may also be protected as a trade secret"] } },
+
+    new_variety: { title: { th: "พันธุ์พืชใหม่", en: "New Plant Variety" }, icon: "plant_variety", roadmap: "plant_new",
+      desc: { th: "พันธุ์พืชที่ได้จากการปรับปรุงพันธุ์ มีความสม่ำเสมอและคงตัว และมีลักษณะแตกต่างจากพันธุ์ที่มีอยู่เดิมอย่างชัดเจน", en: "A plant variety obtained through breeding, uniform and stable, with characteristics clearly distinct from existing varieties." },
+      law: { th: "พระราชบัญญัติคุ้มครองพันธุ์พืช พ.ศ. 2542", en: "Plant Variety Protection Act B.E. 2542 (1999)" }, term: { th: "ประมาณ 12–27 ปี ขึ้นอยู่กับประเภทของพืช", en: "Approximately 12-27 years depending on the plant type" },
+      advice: { th: ["ยื่นคำขอต่อกรมวิชาการเกษตร กระทรวงเกษตรและสหกรณ์", "ต้องแสดงได้ว่าพันธุ์พืชมีความใหม่ ความแตกต่าง ความสม่ำเสมอ และความคงตัว", "เตรียมข้อมูลกระบวนการปรับปรุงพันธุ์และลักษณะประจำพันธุ์ให้ครบถ้วน"], en: ["File with the Department of Agriculture, Ministry of Agriculture and Cooperatives", "Must demonstrate novelty, distinctness, uniformity, and stability", "Prepare complete data on the breeding process and the variety's characteristics"] },
+      overlap: { th: ["ชื่อทางการค้าของเมล็ดพันธุ์หรือผลผลิตควรพิจารณาจดทะเบียนเป็นเครื่องหมายการค้าแยกต่างหาก"], en: ["The brand name of the seed or produce should be considered for separate trademark registration"] } },
+    local_domestic: { title: { th: "พันธุ์พืชพื้นเมืองเฉพาะถิ่น", en: "Local Domestic Plant Variety" }, icon: "plant_variety", roadmap: "plant_domestic",
+      desc: { th: "พันธุ์พืชที่มีอยู่เฉพาะในพื้นที่ใดพื้นที่หนึ่งของประเทศไทย และดูแลรักษาโดยชุมชนท้องถิ่นมาแต่เดิม เป็นสิทธิของชุมชนไม่ใช่สิทธิเด็ดขาดแบบสิทธิบัตร", en: "A plant variety found only in one area of Thailand, traditionally cared for by a local community. It is a community right, not an exclusive right like a patent." },
+      law: { th: "พระราชบัญญัติคุ้มครองพันธุ์พืช พ.ศ. 2542", en: "Plant Variety Protection Act B.E. 2542 (1999)" }, term: { th: "ไม่มีกำหนดเวลาสิ้นสุด เป็นการขึ้นทะเบียนเพื่อดูแลและแบ่งปันผลประโยชน์", en: "No fixed end date; registration is for stewardship and benefit-sharing" },
+      advice: { th: ["ชุมชนท้องถิ่นต้องขึ้นทะเบียนพันธุ์พืชพื้นเมืองเฉพาะถิ่นไว้กับกรมวิชาการเกษตร เพื่อรักษาสิทธิในการดูแลและได้รับส่วนแบ่งผลประโยชน์", "ผู้ที่ต้องการนำไปใช้ประโยชน์ทางการค้าต้องขออนุญาตและทำข้อตกลงแบ่งปันผลประโยชน์กับชุมชนก่อน"], en: ["The local community must register the local domestic variety with the Department of Agriculture to preserve its stewardship right and benefit share", "Anyone wanting commercial use must first obtain permission and agree on benefit-sharing with the community"] }, overlap: { th: [], en: [] } },
+    general_domestic: { title: { th: "พันธุ์พืชพื้นเมืองทั่วไป", en: "General Domestic Plant Variety" }, icon: "plant_variety", roadmap: "plant_domestic",
+      desc: { th: "พันธุ์พืชที่กำเนิดหรือมีอยู่ในประเทศไทยและมีการใช้ประโยชน์อยู่แล้วโดยทั่วไป ไม่ได้จำกัดอยู่เฉพาะพื้นที่ใดพื้นที่หนึ่ง อยู่ภายใต้การดูแลของรัฐ", en: "A plant variety originating or existing in Thailand and already generally used nationwide, not confined to one area, under state stewardship." },
+      law: { th: "พระราชบัญญัติคุ้มครองพันธุ์พืช พ.ศ. 2542", en: "Plant Variety Protection Act B.E. 2542 (1999)" }, term: { th: "ไม่มีกำหนดเวลาสิ้นสุด อยู่ภายใต้การดูแลของรัฐ", en: "No fixed end date; under state stewardship" },
+      advice: { th: ["การเก็บ จัดหา หรือนำไปใช้ประโยชน์ทางการค้าต้องขออนุญาตจากกรมวิชาการเกษตรก่อน", "ผู้ขอใช้ประโยชน์ต้องทำข้อตกลงแบ่งปันผลประโยชน์ตามที่กฎหมายกำหนด"], en: ["Collecting, sourcing, or commercially exploiting it requires prior permission from the Department of Agriculture", "The user must enter into a benefit-sharing agreement as required by law"] }, overlap: { th: [], en: [] } },
+    wild_variety: { title: { th: "พันธุ์พืชป่า", en: "Wild Plant Variety" }, icon: "plant_variety", roadmap: "plant_domestic",
+      desc: { th: "พันธุ์พืชที่มีหรือเคยมีอยู่ในประเทศไทยตามสภาพธรรมชาติ และยังไม่ได้นำมาเพาะปลูกอย่างแพร่หลาย อยู่ภายใต้การดูแลของรัฐเพื่อการอนุรักษ์", en: "A plant variety existing or having existed in Thailand in its natural state, not yet widely cultivated, under state stewardship for conservation." },
+      law: { th: "พระราชบัญญัติคุ้มครองพันธุ์พืช พ.ศ. 2542", en: "Plant Variety Protection Act B.E. 2542 (1999)" }, term: { th: "ไม่มีกำหนดเวลาสิ้นสุด อยู่ภายใต้การดูแลของรัฐเพื่อการอนุรักษ์", en: "No fixed end date; under state stewardship for conservation" },
+      advice: { th: ["การเก็บ จัดหา หรือวิจัยเพื่อการปรับปรุงพันธุ์ต้องได้รับอนุญาตจากกรมวิชาการเกษตรก่อนเสมอ", "หากนำไปปรับปรุงจนได้พันธุ์ใหม่ที่มีลักษณะแตกต่างชัดเจน อาจยื่นขอคุ้มครองเป็นพันธุ์พืชใหม่ได้ในภายหลัง"], en: ["Collecting, sourcing, or researching it for breeding always requires prior permission from the Department of Agriculture", "If it is bred into a new, clearly distinct variety, that new variety may later be eligible for new-variety protection"] }, overlap: { th: [], en: [] } },
+
+    gi: { title: { th: "สิ่งบ่งชี้ทางภูมิศาสตร์", en: "Geographical Indication (GI)" }, icon: "gi", roadmap: "gi",
+      desc: { th: "คุ้มครองชื่อแหล่งภูมิศาสตร์ที่ใช้เรียกสินค้า ซึ่งคุณภาพ ชื่อเสียง หรือคุณลักษณะของสินค้านั้นเป็นผลมาจากแหล่งภูมิศาสตร์ดังกล่าวโดยเฉพาะ", en: "Protects a geographical name used for a product whose quality, reputation, or characteristics result specifically from that place of origin." },
+      law: { th: "พระราชบัญญัติคุ้มครองสิ่งบ่งชี้ทางภูมิศาสตร์ พ.ศ. 2546", en: "Geographical Indications Protection Act B.E. 2546 (2003)" }, term: { th: "ไม่มีกำหนดเวลาสิ้นสุด ตราบเท่าที่คุณสมบัติของแหล่งภูมิศาสตร์ยังคงอยู่", en: "No fixed end date, for as long as the qualities of the place of origin persist" },
+      advice: { th: ["ข้อควรระวัง: กฎหมายไทยห้ามนำสิ่งบ่งชี้ทางภูมิศาสตร์ที่ขึ้นทะเบียนแล้วไปจดทะเบียนเป็นเครื่องหมายการค้าของผู้ผลิตรายใดรายหนึ่งโดยเฉพาะ", "เป็นสิทธิของกลุ่มผู้ผลิตในแหล่งภูมิศาสตร์นั้นร่วมกัน ไม่ใช่สิทธิเด็ดขาดของบุคคลใดบุคคลหนึ่ง", "ยื่นคำขอขึ้นทะเบียนต่อกรมทรัพย์สินทางปัญญา พร้อมหลักฐานความเชื่อมโยงระหว่างคุณภาพสินค้ากับแหล่งกำเนิด", "ควรจัดทำคู่มือการปฏิบัติงาน (specification) เพื่อควบคุมคุณภาพสินค้าร่วมกันในกลุ่มผู้ผลิต"], en: ["Caution: Thai law prohibits registering an already-registered geographical indication as the trademark of any single producer", "This is a shared right of producers in that geographical area, not the exclusive right of any one person", "File the registration application with the DIP, along with evidence linking product quality to the place of origin", "Prepare a shared product specification to control quality among the group of producers"] },
+      overlap: { th: ["ชื่อสิ่งบ่งชี้ทางภูมิศาสตร์ที่ขึ้นทะเบียนแล้วจะไม่สามารถนำไปจดทะเบียนเป็นเครื่องหมายการค้าของผู้ผลิตรายใดรายหนึ่งแต่เพียงผู้เดียวได้อีก"], en: ["A registered GI name can no longer be registered as the exclusive trademark of any single producer"] } },
+
+    none: { title: { th: "ยังไม่เข้าข่ายทรัพย์สินทางปัญญาประเภทหลัก", en: "No Clear Category Identified" }, icon: "none", roadmap: null,
+      desc: { th: "จากคำตอบที่ให้มา สิ่งที่คุณอธิบายยังไม่เข้าเกณฑ์ทรัพย์สินทางปัญญาประเภทหลักตามกฎหมายไทยในเบื้องต้น มักเป็นเพราะยังเป็นเพียงแนวคิดที่ยังไม่ถูกแสดงออกเป็นรูปธรรม หรือเป็นข้อเท็จจริง/ไอเดียที่กฎหมายไม่คุ้มครองโดยตัวมันเอง", en: "Based on your answers, what you described does not yet meet the criteria for a main IP category under Thai law. This is usually because it is still just an idea not yet expressed concretely, or a fact/idea that the law does not protect by itself." },
+      law: { th: "-", en: "-" }, term: { th: "-", en: "-" },
+      advice: { th: ["ไอเดีย หลักการ หรือข้อเท็จจริงเปล่า ๆ ไม่ได้รับความคุ้มครองทรัพย์สินทางปัญญาไม่ว่าประเภทใด จนกว่าจะถูกพัฒนาเป็นชิ้นงาน สิ่งประดิษฐ์ หรือข้อมูลที่เป็นรูปธรรม", "ลองย้อนกลับไปทบทวนคำตอบ ผลงานหนึ่งชิ้นอาจมีหลายองค์ประกอบที่เข้าข่ายทรัพย์สินทางปัญญาต่างประเภทกันซ้อนอยู่", "หากมีการลอกเลียนโดยคู่แข่งแม้ไม่เข้าข่ายทรัพย์สินทางปัญญาโดยตรง อาจพิจารณาใช้กฎหมายการแข่งขันทางการค้าที่ไม่เป็นธรรมได้ในบางกรณี", "ปรึกษาเจ้าหน้าที่กรมทรัพย์สินทางปัญญาหรือทนายความผู้เชี่ยวชาญเพื่อวิเคราะห์อย่างละเอียดอีกครั้ง"], en: ["Bare ideas, principles, or facts are not protected by any type of intellectual property until developed into a concrete work, invention, or information", "Go back and review your answers; one piece of work often has several components that fall under different IP categories at once", "If a competitor is copying it, even without a direct IP category, unfair competition law may apply in some cases", "Consult DIP staff or a qualified attorney for a more detailed analysis"] }, overlap: { th: [], en: [] } }
+  };
+
+  var REF_ORDER = ["trademark_goods", "literary_general", "trade_secret", "patent_invention", "petty_patent", "design_patent", "ic_layout", "new_variety", "gi"];
+  var REF_LABELS = {
+    trademark_goods: { th: "เครื่องหมายการค้า / บริการ / รับรอง / ร่วม / ชื่อทางการค้า", en: "Trademark / service / certification / collective mark / trade name" },
+    literary_general: { th: "ลิขสิทธิ์ (รวมภาพถ่าย ศิลปประยุกต์ โสตทัศนวัสดุ และสิทธิของนักแสดง)", en: "Copyright (incl. photographs, applied art, audiovisual works & performer's right)" },
+    trade_secret: { th: "ความลับทางการค้า", en: "Trade Secret" },
+    patent_invention: { th: "สิทธิบัตรการประดิษฐ์", en: "Invention Patent" },
+    petty_patent: { th: "อนุสิทธิบัตร", en: "Petty Patent" },
+    design_patent: { th: "สิทธิบัตรการออกแบบผลิตภัณฑ์", en: "Design Patent" },
+    ic_layout: { th: "แบบผังภูมิของวงจรรวม", en: "IC Layout Design" },
+    new_variety: { th: "การคุ้มครองพันธุ์พืช (4 ประเภท)", en: "Plant Variety Protection (4 categories)" },
+    gi: { th: "สิ่งบ่งชี้ทางภูมิศาสตร์", en: "Geographical Indication" }
+  };
+
+  /* ================= Depth estimate for progress bar ================= */
+  var DEPTH_HINT = { start: 1, q_origin_check: 2, q_mark_type: 3, q_expression: 2, q_copyright_type: 3, q_secret: 3, q_tech_or_design: 4, q_patent_exclusion: 5, q_purpose: 6, q_disclosure: 7, q_novelty: 8, q_ic: 5, q_plant: 6, q_plant_subtype: 7 };
+  var EST_TOTAL = 8;
+
+  /* ================= State ================= */
+  var history = [];
+  var flags = { discloseGrace: false };
+  var lastView = { type: "question", id: "start" };
+  var collectedResults = []; // { resultId, savedAt } — for the "check another angle of the same work" flow
+
+  var panel = document.getElementById("panel");
+  var trail = document.getElementById("trail");
+  var trailSummaryText = document.getElementById("trailSummaryText");
+  var progressFill = document.getElementById("progressFill");
+  var progressLabel = document.getElementById("progressLabel");
+  var reduceMotion = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+  /* ================= Analytics (optional, offline-safe queue) =============
+     Leave ANALYTICS_ENDPOINT empty to disable tracking entirely — the app
+     works exactly the same either way. To enable: deploy the companion
+     Google Apps Script web app, then paste its /exec URL into
+     ANALYTICS_ENDPOINT and its API_TOKEN value into ANALYTICS_TOKEN below
+     (both must match exactly, or every event is silently rejected).
+     Data collected: which question was shown, which answer was picked,
+     how long it took, and where people gave up — tied to a random session
+     ID generated fresh in this browser each visit, not to any personal
+     information. See the in-app notice for what this is used for.
+
+     Offline behaviour: every event is written to localStorage FIRST
+     (always works, no network needed), then a send is attempted. If the
+     device has no connection right now, the event just stays queued —
+     nothing is lost. The queue is retried automatically the next time
+     the page loads, whenever the browser reports it is back online, and
+     periodically while the page stays open. This is how data "arrives
+     late" for someone using the app fully offline: it travels the next
+     time that same device happens to have internet, not before. */
+  var ANALYTICS_ENDPOINT = "";
+  var ANALYTICS_TOKEN = ""; // must match API_TOKEN set in the Apps Script backend
+  var TREE_VERSION = "v5"; // bump this whenever TREE/RESULTS structure changes, so old and new analytics data never get silently mixed together
+  var ANALYTICS_QUEUE_KEY = "ipclf_analytics_queue_v1";
+  var ANALYTICS_QUEUE_MAX = 500;
+
+  function genSessionId() {
+    if (window.crypto && crypto.randomUUID) return crypto.randomUUID();
+    return "xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx".replace(/[xy]/g, function (c) {
+      var r = (Math.random() * 16) | 0, v = c === "x" ? r : (r & 0x3) | 0x8;
+      return v.toString(16);
+    });
+  }
+  var sessionId = genSessionId();
+  var sessionStartAt = Date.now();
+  var questionShownAt = null;
+  var resultReached = false;
+  var flushing = false;
+
+  function readQueue() {
+    try {
+      var raw = window.localStorage.getItem(ANALYTICS_QUEUE_KEY);
+      return raw ? JSON.parse(raw) : [];
+    } catch (e) { return []; }
+  }
+  function writeQueue(q) {
+    try { window.localStorage.setItem(ANALYTICS_QUEUE_KEY, JSON.stringify(q)); } catch (e) { /* storage unavailable; degrade silently */ }
+  }
+
+  function trackEvent(payload) {
+    if (!ANALYTICS_ENDPOINT) return;
+    payload.session_id = sessionId;
+    payload.lang = currentLang;
+    payload.tree_version = TREE_VERSION;
+    payload.token = ANALYTICS_TOKEN;
+    payload.queued_at = Date.now();
+    var q = readQueue();
+    q.push(payload);
+    if (q.length > ANALYTICS_QUEUE_MAX) q = q.slice(q.length - ANALYTICS_QUEUE_MAX);
+    writeQueue(q);
+    flushQueue();
+  }
+
+  function flushQueue() {
+    if (!ANALYTICS_ENDPOINT || flushing) return;
+    if (navigator.onLine === false) return; // known offline; wait for the 'online' event instead
+    var q = readQueue();
+    if (!q.length) return;
+    flushing = true;
+    var sending = q;
+    fetch(ANALYTICS_ENDPOINT, {
+      method: "POST",
+      headers: { "Content-Type": "text/plain;charset=UTF-8" },
+      body: JSON.stringify({ events: sending, token: ANALYTICS_TOKEN }),
+      keepalive: true
+    }).then(function () {
+      // best-effort: treat any completed request as delivered, then drop
+      // only the events we actually sent (new ones may have queued meanwhile)
+      var remaining = readQueue().slice(sending.length);
+      writeQueue(remaining);
+    }).catch(function () {
+      /* still offline or request failed — leave the queue intact for next try */
+    }).finally(function () { flushing = false; });
+  }
+
+  window.addEventListener("online", flushQueue);
+  document.addEventListener("visibilitychange", function () {
+    if (document.visibilityState === "hidden" && !resultReached) {
+      trackEvent({ event: "session_abandon", node_id: lastView.id });
+    }
+  });
+  window.addEventListener("pagehide", function () {
+    if (!resultReached) trackEvent({ event: "session_abandon", node_id: lastView.id });
+  });
+  // Retry whatever piled up while offline, shortly after this load and then periodically
+  setTimeout(flushQueue, 1500);
+  setInterval(flushQueue, 60000);
+
+  function setStaticText() {
+    document.documentElement.lang = currentLang;
+    document.getElementById("disclaimerText").innerHTML = L(UI.disclaimer);
+    document.getElementById("heroTitle").textContent = L(UI.heroTitle);
+    document.getElementById("heroSubtitle").textContent = L(UI.heroSubtitle);
+    document.getElementById("refToggleLabel").textContent = L(UI.refToggle);
+    document.getElementById("footerText").textContent = L(UI.footer);
+    document.getElementById("dataNoticeText").textContent = L(UI.dataNotice);
+    document.getElementById("progressLabel").textContent = L(UI.progressLabel);
+    document.getElementById("langTh").className = currentLang === "th" ? "active" : "";
+    document.getElementById("langTh").setAttribute("aria-pressed", currentLang === "th" ? "true" : "false");
+    document.getElementById("langEn").className = currentLang === "en" ? "active" : "";
+    document.getElementById("langEn").setAttribute("aria-pressed", currentLang === "en" ? "true" : "false");
+  }
+
+  function renderTrail(pendingQuestion) {
+    trail.innerHTML = "";
+    history.forEach(function (step, i) {
+      var div = document.createElement("div");
+      div.className = "trail-step done";
+      div.innerHTML = '<div class="trail-dot">' + (i + 1) + '</div><div class="trail-body"><p class="trail-q">' + step.question + '</p><span class="trail-a">' + step.answerLabel + '</span></div>';
+      trail.appendChild(div);
+    });
+    if (pendingQuestion) {
+      var cur = document.createElement("div");
+      cur.className = "trail-step current";
+      cur.innerHTML = '<div class="trail-dot">' + (history.length + 1) + '</div><div class="trail-body"><p class="trail-q">' + pendingQuestion + '</p></div>';
+      trail.appendChild(cur);
+    }
+    trailSummaryText.textContent = L(UI.stepLabel) + " " + (history.length + 1);
+  }
+
+  function updateProgress(nodeId, done) {
+    var pct;
+    if (done) { pct = 100; }
+    else {
+      var d = DEPTH_HINT[nodeId] || (history.length + 1);
+      pct = Math.min(96, Math.round((d / EST_TOTAL) * 100));
+    }
+    progressFill.style.width = pct + "%";
+  }
+
+  function renderQuestion(nodeId) {
+    var node = TREE[nodeId];
+    lastView = { type: "question", id: nodeId };
+    renderTrail(L(node.q));
+    updateProgress(nodeId, false);
+    questionShownAt = Date.now();
+    trackEvent({ event: "question_view", node_id: nodeId, question: L(node.q).slice(0, 90) });
+
+    var html = '<div class="qcard' + (reduceMotion ? '' : ' enter') + '">';
+    html += '<div class="q-eyebrow"><span class="q-step">' + L(UI.stepLabel) + ' ' + (history.length + 1) + '</span>';
+    html += '<button class="q-restart" id="restartBtn" type="button">' + L(UI.restart) + '</button></div>';
+    html += '<p class="q-text">' + L(node.q) + '</p>';
+    if (node.hint) html += '<p class="q-hint">' + L(node.hint) + '</p>';
+    if (node.examples) {
+      html += '<details class="q-examples"><summary>' + CHEV_RIGHT + L(UI.examplesToggle) + '</summary><ul>';
+      L(node.examples).forEach(function (ex) { html += '<li>' + ex + '</li>'; });
+      html += '</ul></details>';
+    }
+    html += '<div class="answers">';
+    node.options.forEach(function (opt, i) {
+      html += '<button class="ans-btn" data-idx="' + i + '" type="button">' + L(opt.label) + CHECK + '</button>';
+    });
+    html += '</div>';
+    if (history.length > 0) html += '<button class="q-back" id="backBtn" type="button">' + BACK + L(UI.back) + '</button>';
+    html += '</div>';
+
+    panel.innerHTML = html;
+    focusPanelHeading();
+
+    var examplesEl = panel.querySelector(".q-examples");
+    if (examplesEl) {
+      examplesEl.addEventListener("toggle", function () {
+        if (this.open) trackEvent({ event: "examples_opened", node_id: nodeId });
+      });
+    }
+
+    node.options.forEach(function (opt, i) {
+      panel.querySelector('[data-idx="' + i + '"]').addEventListener("click", function () {
+        var elapsed = questionShownAt ? Math.round((Date.now() - questionShownAt) / 1000) : "";
+        trackEvent({ event: "question_answered", node_id: nodeId, question: L(node.q).slice(0, 90), option: L(opt.label), time_spent_sec: elapsed });
+        history.push({ nodeId: nodeId, question: L(node.q), answerLabel: L(opt.label) });
+        if (nodeId === "q_disclosure" && i === 1) flags.discloseGrace = true;
+        goTo(opt.next);
+      });
+    });
+    var backBtn = document.getElementById("backBtn");
+    if (backBtn) backBtn.addEventListener("click", goBack);
+    document.getElementById("restartBtn").addEventListener("click", function () { restart(false); });
+  }
+
+  function renderResult(resultId) {
+    var r = RESULTS[resultId];
+    lastView = { type: "result", id: resultId };
+    resultReached = true;
+    trackEvent({ event: "result_reached", result_id: resultId, time_spent_sec: Math.round((Date.now() - sessionStartAt) / 1000) });
+    renderTrail(null);
+    updateProgress(null, true);
+
+    var advice = L(r.advice).slice();
+    if ((resultId === "patent_invention" || resultId === "petty_patent") && flags.discloseGrace) {
+      var graceNote = currentLang === "th"
+        ? "คุณเปิดเผยสิ่งประดิษฐ์นี้มาแล้วภายใน 12 เดือนโดยตัวผู้ประดิษฐ์เอง ยังสามารถยื่นขอความคุ้มครองได้โดยอ้างสิทธิข้อยกเว้นความใหม่ แต่ต้องยื่นคำขอภายในกำหนดเวลาและแนบหลักฐานการเปิดเผยประกอบคำขอให้ครบถ้วน"
+        : "You disclosed this invention within the last 12 months, as the inventor personally. You may still file by invoking the novelty grace-period exception, but must file within the deadline and attach evidence of the disclosure.";
+      advice.unshift(graceNote);
+    }
+
+    var html = '<div class="rcard' + (r.warn ? " warn" : "") + (reduceMotion ? '' : ' enter') + '">';
+    html += '<div class="r-eyebrow">' + L(UI.resultEyebrow) + '</div>';
+    html += '<div class="r-head"><div class="r-icon' + (resultId === "none" || r.warn ? " none" : "") + '">' + ICONS[r.icon] + '</div>';
+    html += '<div class="r-titles"><h2>' + L(r.title) + '</h2><div class="r-en">' + (currentLang === "th" ? r.title.en : r.title.th) + '</div></div></div>';
+    html += '<div class="r-disclaimer">' + WARN_ICON + '<span>' + L(UI.dashDisclaimer) + '</span></div>';
+    html += '<p class="r-desc">' + L(r.desc) + '</p>';
+    if (L(r.law) !== "-") {
+      html += '<div class="r-facts">';
+      html += '<div class="r-fact"><div class="r-fact-label">' + L(UI.factLaw) + '</div><div class="r-fact-val">' + L(r.law) + '</div></div>';
+      html += '<div class="r-fact"><div class="r-fact-label">' + L(UI.factTerm) + '</div><div class="r-fact-val">' + L(r.term) + '</div></div>';
+      html += '</div>';
+    }
+    html += '<div class="r-advice"><h3>' + L(UI.adviceHeading) + '</h3><ul>';
+    advice.forEach(function (a) { html += '<li>' + a + '</li>'; });
+    html += '</ul></div>';
+
+    if (r.roadmap && ROADMAPS[r.roadmap]) {
+      html += '<div class="r-roadmap"><h3>' + L(UI.roadmapHeading) + '</h3>';
+      L(ROADMAPS[r.roadmap]).forEach(function (step, i) {
+        html += '<div class="rm-step"><div class="rm-dot">' + (i + 1) + '</div><div class="rm-text">' + step + '</div></div>';
+      });
+      html += '</div>';
+    }
+
+    var overlapList = L(r.overlap);
+    if (overlapList && overlapList.length) {
+      html += '<div class="r-overlap"><h3>' + LINK_ICON + L(UI.overlapHeading) + '</h3><ul>';
+      overlapList.forEach(function (o) { html += '<li>' + o + '</li>'; });
+      html += '</ul></div>';
+    }
+
+    html += '<div class="r-actions">';
+    if (history.length > 0) html += '<button class="btn" id="backBtn" type="button">' + BACK + L(UI.backEdit) + '</button>';
+    html += '<button class="btn" id="addToProfileBtn" type="button">' + L(UI.addToProfileBtn) + '</button>';
+    html += '<button class="btn" id="printBtn" type="button">' + PRINT_ICON + L(UI.printBtn) + '</button>';
+    html += '<button class="btn" id="copyBtn" type="button">' + COPY_ICON + L(UI.copyBtn) + '</button>';
+    html += '<button class="btn primary" id="restartBtn" type="button">' + L(UI.restartResult) + '</button>';
+    html += '</div>';
+    html += '<div class="r-actions" style="margin-top:2px;"><button class="btn" id="disagreeBtn" type="button">' + L(UI.disagreeBtn) + '</button></div>';
+    html += '<div class="copy-toast" id="copyToast">' + L(UI.copiedMsg) + '</div>';
+    html += '</div>';
+
+    panel.innerHTML = html;
+    focusPanelHeading();
+    var backBtn = document.getElementById("backBtn");
+    if (backBtn) backBtn.addEventListener("click", goBack);
+    document.getElementById("restartBtn").addEventListener("click", function () { restart(false); });
+    document.getElementById("printBtn").addEventListener("click", function () { window.print(); });
+    document.getElementById("copyBtn").addEventListener("click", function () { copySummary(r, advice, overlapList); });
+    document.getElementById("addToProfileBtn").addEventListener("click", function () {
+      if (!collectedResults.some(function (c) { return c.resultId === resultId; })) {
+        collectedResults.push({ resultId: resultId, savedAt: Date.now() });
+      }
+      updateProfileButton();
+      restart(true);
+    });
+    document.getElementById("disagreeBtn").addEventListener("click", function () {
+      var note = window.prompt(L(UI.disagreePrompt), "");
+      if (note === null) return; // user cancelled
+      trackEvent({ event: "result_disagree", result_id: resultId, note: note.slice(0, 500) });
+      var toast = document.getElementById("copyToast");
+      if (toast) { toast.textContent = L(UI.disagreeThanks); toast.classList.add("show"); setTimeout(function () { toast.classList.remove("show"); toast.textContent = L(UI.copiedMsg); }, 2600); }
+    });
+  }
+
+  function copySummary(r, advice, overlapList) {
+    var lines = [];
+    lines.push(L(r.title) + " (" + (currentLang === "th" ? r.title.en : r.title.th) + ")");
+    lines.push("");
+    lines.push(L(r.desc));
+    if (L(r.law) !== "-") {
+      lines.push("");
+      lines.push(L(UI.factLaw) + ": " + L(r.law));
+      lines.push(L(UI.factTerm) + ": " + L(r.term));
+    }
+    lines.push("");
+    lines.push(L(UI.adviceHeading) + ":");
+    advice.forEach(function (a) { lines.push("- " + a); });
+    if (overlapList && overlapList.length) {
+      lines.push("");
+      lines.push(L(UI.overlapHeading) + ":");
+      overlapList.forEach(function (o) { lines.push("- " + o); });
+    }
+    lines.push("");
+    lines.push(L(UI.dashDisclaimer));
+    var text = lines.join("\n");
+    var toast = document.getElementById("copyToast");
+    function showToast() { if (toast) { toast.classList.add("show"); setTimeout(function () { toast.classList.remove("show"); }, 2200); } }
+    try {
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(text).then(showToast, function () { fallbackCopy(text, showToast); });
+      } else {
+        fallbackCopy(text, showToast);
+      }
+    } catch (e) { fallbackCopy(text, showToast); }
+  }
+
+  function fallbackCopy(text, cb) {
+    try {
+      var ta = document.createElement("textarea");
+      ta.value = text; ta.style.position = "fixed"; ta.style.opacity = "0";
+      document.body.appendChild(ta); ta.focus(); ta.select();
+      document.execCommand("copy");
+      document.body.removeChild(ta);
+      if (cb) cb();
+    } catch (e) { /* clipboard unavailable; silently ignore */ }
+  }
+
+  function renderReference() {
+    var html = '<div class="refcard' + (reduceMotion ? '' : ' enter') + '">';
+    html += '<h2>' + L(UI.refTitle) + '</h2>';
+    html += '<p>' + L(UI.refDesc) + '</p>';
+    html += '<div class="ref-grid">';
+    REF_ORDER.forEach(function (id) {
+      var r = RESULTS[id];
+      html += '<div class="ref-item">';
+      html += '<div class="ref-item-head"><div class="ri">' + ICONS[r.icon] + '</div><strong>' + L(REF_LABELS[id]) + '</strong></div>';
+      html += '<p>' + L(r.desc) + '</p>';
+      html += '<div class="ref-term">' + L(r.term) + '</div>';
+      html += '</div>';
+    });
+    html += '</div>';
+    html += '<div class="r-actions"><button class="btn primary" id="refBackBtn" type="button">' + L(UI.refBack) + '</button></div>';
+    html += '</div>';
+    panel.innerHTML = html;
+    focusPanelHeading();
+    document.getElementById("refBackBtn").addEventListener("click", restoreLastView);
+  }
+
+  function updateProfileButton() {
+    var btn = document.getElementById("profileToggle");
+    var label = document.getElementById("profileToggleLabel");
+    if (!btn) return;
+    if (collectedResults.length > 0) {
+      btn.style.display = "";
+      label.textContent = L(UI.myProfileBtn) + " (" + collectedResults.length + ")";
+    } else {
+      btn.style.display = "none";
+    }
+  }
+
+  function renderProfile() {
+    var html = '<div class="refcard' + (reduceMotion ? '' : ' enter') + '">';
+    html += '<h2>' + L(UI.profileTitle) + '</h2>';
+    html += '<p>' + L(UI.profileDesc) + '</p>';
+    if (!collectedResults.length) {
+      html += '<p class="empty-note">' + L(UI.profileEmpty) + '</p>';
+    } else {
+      html += '<div class="ref-grid">';
+      collectedResults.forEach(function (item) {
+        var r = RESULTS[item.resultId];
+        html += '<div class="ref-item">';
+        html += '<div class="ref-item-head"><div class="ri">' + ICONS[r.icon] + '</div><strong>' + L(r.title) + '</strong></div>';
+        html += '<p>' + L(r.desc) + '</p>';
+        html += '<div class="ref-term">' + L(r.term) + '</div>';
+        html += '</div>';
+      });
+      html += '</div>';
+    }
+    html += '<div class="r-actions"><button class="btn primary" id="profileBackBtn" type="button">' + L(UI.profileBack) + '</button></div>';
+    html += '</div>';
+    panel.innerHTML = html;
+    focusPanelHeading();
+    var backBtn = document.getElementById("profileBackBtn");
+    if (backBtn) backBtn.addEventListener("click", restoreLastView);
+  }
+
+  function focusPanelHeading() {
+    var heading = panel.querySelector("h2, .q-text");
+    if (!heading) return;
+    try {
+      heading.setAttribute("tabindex", "-1");
+      heading.focus({ preventScroll: true });
+    } catch (e) { /* focus is a nicety, never let it break rendering */ }
+  }
+
+  function restoreLastView() {
+    if (lastView.type === "result") renderResult(lastView.id);
+    else renderQuestion(lastView.id);
+  }
+
+  function goTo(next) {
+    if (next.indexOf("result:") === 0) renderResult(next.slice(7));
+    else renderQuestion(next);
+    panel.scrollIntoView({ behavior: reduceMotion ? "auto" : "smooth", block: "start" });
+  }
+
+  function goBack() {
+    var last = history.pop();
+    if (!last) return;
+    trackEvent({ event: "back_clicked", node_id: lastView.id });
+    if (last.nodeId === "q_disclosure") flags.discloseGrace = false;
+    renderQuestion(last.nodeId);
+  }
+
+  function restart(preserveProfile) {
+    if (history.length > 0 || resultReached) trackEvent({ event: preserveProfile ? "explore_another_clicked" : "restart_clicked", node_id: lastView.id });
+    history = [];
+    flags = { discloseGrace: false };
+    resultReached = false;
+    if (!preserveProfile) collectedResults = [];
+    renderQuestion("start");
+    updateProfileButton();
+  }
+
+  function setLang(lang) {
+    if (lang === currentLang) return;
+    currentLang = lang;
+    setStaticText();
+    var wasRef = panel.querySelector(".refcard") !== null;
+    if (wasRef) renderReference(); else restoreLastView();
+  }
+
+  document.getElementById("refToggle").addEventListener("click", renderReference);
+  document.getElementById("profileToggle").addEventListener("click", renderProfile);
+  document.getElementById("langTh").addEventListener("click", function () { setLang("th"); });
+  document.getElementById("langEn").addEventListener("click", function () { setLang("en"); });
+
+  setStaticText();
+  trackEvent({ event: "session_start" });
+  restart(false);
+})();
+</script>
+</body>
+</html>
