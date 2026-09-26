@@ -764,12 +764,16 @@
     }).finally(function () { flushing = false; });
   }
 
-  window.addEventListener("online", flushQueue);
+  var abandonSent = false;
+  function trackAbandonOnce() {
+    if (resultReached || abandonSent) return;
+    abandonSent = true;
+    trackEvent({ event: "session_abandon", node_id: lastView.id });
+  }
   document.addEventListener("visibilitychange", function () {
-    if (document.visibilityState === "hidden" && !resultReached) {
-      trackEvent({ event: "session_abandon", node_id: lastView.id });
-    }
+    if (document.visibilityState === "hidden") trackAbandonOnce();
   });
+  window.addEventListener("pagehide", trackAbandonOnce);
   window.addEventListener("pagehide", function () {
     if (!resultReached) trackEvent({ event: "session_abandon", node_id: lastView.id });
   });
@@ -1081,13 +1085,12 @@
   }
 
   function restart(preserveProfile) {
-    if (history.length > 0 || resultReached) trackEvent({ event: preserveProfile ? "explore_another_clicked" : "restart_clicked", node_id: lastView.id });
+    if (history.length > 0 || resultReached) trackEvent({ event: "restart_clicked", node_id: lastView.id });
     history = [];
     flags = { discloseGrace: false };
     resultReached = false;
-    if (!preserveProfile) collectedResults = [];
+    abandonSent = false;
     renderQuestion("start");
-    updateProfileButton();
   }
 
   function setLang(lang) {
